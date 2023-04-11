@@ -38,6 +38,18 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
+        android:id="@+id/active"
+        android:layout_width="130dp"
+        android:layout_height="100dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="@string/Active"
+        android:textColor="@color/red"
+
+
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="460dp" />
+
+    <Button
         android:id="@+id/female_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

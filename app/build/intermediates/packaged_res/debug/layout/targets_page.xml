@@ -30,10 +30,9 @@
         android:id="@+id/sitable"
         android:layout_width="130dp"
         android:layout_height="100dp"
+        android:background="@android:color/transparent"
         android:text="@string/sitting"
-        app:cornerRadius="20dp"
-        android:backgroundTint="@color/red"
-        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteX="47dp"
         tools:layout_editor_absoluteY="376dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

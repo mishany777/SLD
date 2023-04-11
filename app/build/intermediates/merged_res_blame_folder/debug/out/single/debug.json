@@ -44,10 +44,6 @@
         "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-31:/layout/sex_page.xml"
     },
     {
-        "merged": "com.example.stoplyingdown.app-merged_res-29:/layout_sex_page.xml.flat",
-        "source": "com.example.stoplyingdown.app-main-31:/layout/sex_page.xml"
-    },
-    {
         "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-29:/mipmap-hdpi_ic_launcher.webp.flat",
         "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-31:/mipmap-hdpi/ic_launcher.webp"
     },
@@ -78,6 +74,10 @@
     {
         "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-29:/layout_height_page.xml.flat",
         "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-31:/layout/height_page.xml"
+    },
+    {
+        "merged": "com.example.stoplyingdown.app-merged_res-29:/layout_targets_page.xml.flat",
+        "source": "com.example.stoplyingdown.app-main-31:/layout/targets_page.xml"
     },
     {
         "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-29:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",

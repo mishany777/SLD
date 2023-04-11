@@ -3,6 +3,7 @@ local
 color background
 color background_buttons
 color background_buttons2
+color background_buttons3
 color black
 color green
 color men_color

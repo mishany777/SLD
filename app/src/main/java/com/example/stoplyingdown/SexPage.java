@@ -50,8 +50,8 @@ public class SexPage extends AppCompatActivity {
 
     public void SetSex(String text, SharedPreferences sPref){
         SharedPreferences.Editor editor = sPref.edit();
-         if (sPref.contains(text)){
-             editor.remove(text);
+         if (sPref.contains(FIELD_NAME)){
+             editor.remove(FIELD_NAME);
              editor.apply();
          }
          editor.putString(FIELD_NAME, text);

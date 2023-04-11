@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="background">#E4F7FF</color>
+    <color name="background">#FFFFFF</color>
     <color name="background_buttons">#FF8121</color>
     <color name="background_buttons2">#2151CA</color>
+    <color name="background_buttons3">#2151CA</color>
     <color name="black">#252525</color>
     <color name="green">#32CD32</color>
     <color name="men_color">#6670ff</color>

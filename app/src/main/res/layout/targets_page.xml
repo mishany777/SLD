@@ -17,7 +17,7 @@
         tools:layout_editor_absoluteY="127dp" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/active"
         android:layout_width="130dp"
         android:layout_height="100dp"
         android:text="@string/Active"
@@ -27,7 +27,7 @@
         tools:layout_editor_absoluteY="376dp" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/sitable"
         android:layout_width="130dp"
         android:layout_height="100dp"
         android:text="@string/sitting"

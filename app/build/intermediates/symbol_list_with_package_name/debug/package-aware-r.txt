@@ -1302,6 +1302,7 @@ color androidx_core_ripple_material_light
 color androidx_core_secondary_text_default_material_light
 color background
 color background_buttons
+color background_buttons2
 color background_floating_material_dark
 color background_floating_material_light
 color background_material_dark
@@ -1365,6 +1366,7 @@ color error_color_material_dark
 color error_color_material_light
 color foreground_material_dark
 color foreground_material_light
+color green
 color highlighted_text_material_dark
 color highlighted_text_material_light
 color m3_appbar_overlay_color
@@ -1901,6 +1903,7 @@ color primary_text_disabled_material_light
 color purple_200
 color purple_500
 color purple_700
+color red
 color ripple_material_dark
 color ripple_material_light
 color secondary_text_default_material_dark
@@ -2876,6 +2879,7 @@ id action_mode_bar_stub
 id action_mode_close_button
 id action_text
 id actions
+id active
 id activity_chooser_view_content
 id add
 id alertTitle
@@ -2905,8 +2909,6 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
-id button
-id button2
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -3206,6 +3208,7 @@ id showCustom
 id showHome
 id showTitle
 id sin
+id sitable
 id skipCollapsed
 id skipped
 id slide

@@ -2,6 +2,7 @@ package com.example.stoplyingdown;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+import android.content.SharedPreferences;
 
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -18,17 +19,26 @@ public class HeightPage extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.height_page);
 
+        SharedPreferences sPref;
+
         EditText heightFrame = findViewById(R.id.height);
         Button nextPageButton = findViewById(R.id.nextPageButtonHeight);
         nextPageButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Integer height = Integer.parseInt(heightFrame.getText().toString());
-                if (height >= 67 && height <= 272) {
+                String height_string = heightFrame.getText().toString();
+                if (height_string.equals("")){
+                    SendAlert();
+                    return;
+                }
+
+                Integer height = Integer.parseInt(height_string);
+                if (height >= 67 && height <= 272 && height != 0) {
                     NextPage(view);
                 }
                 else {
                     SendAlert();
+                    return;
                 }
             }
         });

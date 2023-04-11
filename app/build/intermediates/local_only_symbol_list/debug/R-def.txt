@@ -1,10 +1,12 @@
 R_DEF: Internal format may change without notice
 local
+color FUCK_YOU_PUSHERS
 color background
 color background_buttons
 color background_buttons2
-color background_buttons3
+color background_buttons_off
 color black
+color button_off
 color green
 color men_color
 color purple_200
@@ -13,17 +15,23 @@ color purple_700
 color red
 color teal_200
 color teal_700
+color text_color
 color white
 color women_color
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable man
+drawable man1
 id active
+id confirm_button
 id female_button
 id firstPageButton
 id height
+id imageView2
 id male_button
 id nextPageButtonHeight
 id sitable
+id step_info
 id textView
 id textView2
 id textView3

@@ -1270,6 +1270,7 @@ int attr yearTodayStyle 0x7f0304a9
 int bool abc_action_bar_embed_tabs 0x7f040000
 int bool abc_config_actionMenuItemAllCaps 0x7f040001
 int bool mtrl_btn_textappearance_all_caps 0x7f040002
+int color FUCK_YOU_PUSHERS 0x7f05028c
 int color abc_background_cache_hint_selector_material_dark 0x7f050000
 int color abc_background_cache_hint_selector_material_light 0x7f050001
 int color abc_btn_colored_borderless_text_material 0x7f050002
@@ -1302,7 +1303,7 @@ int color androidx_core_secondary_text_default_material_light 0x7f05001c
 int color background 0x7f05001d
 int color background_buttons 0x7f05001e
 int color background_buttons2 0x7f05028a
-int color background_buttons3 0x7f05028b
+int color background_buttons_off 0x7f05028f
 int color background_floating_material_dark 0x7f05001f
 int color background_floating_material_light 0x7f050020
 int color background_material_dark 0x7f050021
@@ -1316,6 +1317,7 @@ int color bright_foreground_material_dark 0x7f050028
 int color bright_foreground_material_light 0x7f050029
 int color button_material_dark 0x7f05002a
 int color button_material_light 0x7f05002b
+int color button_off 0x7f05028e
 int color cardview_dark_background 0x7f05002c
 int color cardview_light_background 0x7f05002d
 int color cardview_shadow_end_color 0x7f05002e
@@ -1918,6 +1920,7 @@ int color switch_thumb_normal_material_dark 0x7f050282
 int color switch_thumb_normal_material_light 0x7f050283
 int color teal_200 0x7f050284
 int color teal_700 0x7f050285
+int color text_color 0x7f05028d
 int color tooltip_background_dark 0x7f050286
 int color tooltip_background_light 0x7f050287
 int color white 0x7f050288
@@ -2747,6 +2750,8 @@ int drawable m3_tabs_background 0x7f07009c
 int drawable m3_tabs_line_indicator 0x7f07009d
 int drawable m3_tabs_rounded_line_indicator 0x7f07009e
 int drawable m3_tabs_transparent_background 0x7f07009f
+int drawable man 0x7f0700df
+int drawable man1 0x7f0700e0
 int drawable material_cursor_drawable 0x7f0700a0
 int drawable material_ic_calendar_black_24dp 0x7f0700a1
 int drawable material_ic_clear_black_24dp 0x7f0700a2
@@ -3031,6 +3036,7 @@ int id ifRoom 0x7f0800d9
 int id ignore 0x7f0800da
 int id ignoreRequest 0x7f0800db
 int id image 0x7f0800dc
+int id imageView2 0x7f0801f9
 int id immediateStop 0x7f0800dd
 int id included 0x7f0800de
 int id indeterminate 0x7f0800df
@@ -3235,6 +3241,7 @@ int id startToEnd 0x7f0801a6
 int id startVertical 0x7f0801a7
 int id staticLayout 0x7f0801a8
 int id staticPostLayout 0x7f0801a9
+int id step_info 0x7f0801fa
 int id stop 0x7f0801aa
 int id stretch 0x7f0801ab
 int id submenuarrow 0x7f0801ac

@@ -8,14 +8,29 @@
     android:background="@color/background">
 
     <Button
+        android:id="@+id/step_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Шаг №2"
+        android:backgroundTint="@color/background_buttons"
+        android:textSize="20sp"
+        app:cornerRadius="0dp"
+        android:width="500dp"
+        android:height="80dp"
+        android:layout_marginTop="-7dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
         android:id="@+id/nextPageButtonHeight"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="2dp"
+        android:layout_marginBottom="90dp"
         android:width="400dp"
-        android:height="60dp"
+        android:height="65dp"
         android:text="@string/next"
-        android:textSize="16sp"
+        android:textSize="25sp"
         android:backgroundTint="@color/background_buttons"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -26,23 +41,26 @@
         android:id="@+id/height"
         android:layout_width="200dp"
         android:layout_height="50dp"
-        android:layout_marginTop="170dp"
         android:hint="Рост"
+        android:textColor="@color/text_color"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
         android:inputType="number"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
         android:text="Введите ваш рост"
-        android:layout_marginTop="120dp"
         android:textSize="30sp"
+        android:textColor="@color/text_color"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/step_info" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 

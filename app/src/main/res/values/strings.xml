@@ -1,11 +1,11 @@
 <resources>
     <string name="app_name">StopLyingDown</string>
-    <string name="start_first_page">Начать заниматься</string>
+    <string name="start_first_page">Хватит валяться</string>
     <string name="about_app">StopLyingDown</string>
     <string name="continue_text">Продолжить</string>
-    <string name="next">Следующее</string>
+    <string name="next">Далее</string>
 
-    <string name="sex_choose">Выберите ваш пол</string>
+    <string name="sex_choose">Какого вы пола?</string>
     <string name="male">Мужской</string>
     <string name="female">Женский</string>
     <string name="life_style">Образ жизни</string>

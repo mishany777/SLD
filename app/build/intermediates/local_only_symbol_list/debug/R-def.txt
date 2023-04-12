@@ -21,12 +21,13 @@ color women_color
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable man
-drawable man1
+drawable women
 id active
 id confirm_button
 id female_button
 id firstPageButton
 id height
+id imageView
 id imageView2
 id male_button
 id nextPageButtonHeight

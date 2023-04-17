@@ -1271,6 +1271,7 @@ attr yearTodayStyle
 bool abc_action_bar_embed_tabs
 bool abc_config_actionMenuItemAllCaps
 bool mtrl_btn_textappearance_all_caps
+color FUCK_YOU_PUSHERS
 color abc_background_cache_hint_selector_material_dark
 color abc_background_cache_hint_selector_material_light
 color abc_btn_colored_borderless_text_material
@@ -1303,7 +1304,7 @@ color androidx_core_secondary_text_default_material_light
 color background
 color background_buttons
 color background_buttons2
-color background_buttons3
+color background_buttons_off
 color background_floating_material_dark
 color background_floating_material_light
 color background_material_dark
@@ -1317,6 +1318,7 @@ color bright_foreground_material_dark
 color bright_foreground_material_light
 color button_material_dark
 color button_material_light
+color button_off
 color cardview_dark_background
 color cardview_light_background
 color cardview_shadow_end_color
@@ -1919,6 +1921,7 @@ color switch_thumb_normal_material_dark
 color switch_thumb_normal_material_light
 color teal_200
 color teal_700
+color text_color
 color tooltip_background_dark
 color tooltip_background_light
 color white
@@ -2748,6 +2751,7 @@ drawable m3_tabs_background
 drawable m3_tabs_line_indicator
 drawable m3_tabs_rounded_line_indicator
 drawable m3_tabs_transparent_background
+drawable man
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
@@ -2811,6 +2815,7 @@ drawable notify_panel_notification_icon_bg
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable women
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -3032,6 +3037,8 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageView
+id imageView2
 id immediateStop
 id included
 id indeterminate
@@ -3236,6 +3243,7 @@ id startToEnd
 id startVertical
 id staticLayout
 id staticPostLayout
+id step_info
 id stop
 id stretch
 id submenuarrow

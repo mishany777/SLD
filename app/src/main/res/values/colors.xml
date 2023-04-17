@@ -8,11 +8,13 @@
     <color name="black">#252525</color>
     <color name="white">#FFFFFFFF</color>
     <color name="background">#FFFFFF</color>
-    <color name="background_buttons">#FF8121</color>
-    <color name="background_buttons2">#2151CA</color>
+    <color name="background_buttons2">#FF8121</color>
+    <color name="background_buttons">#305CCA</color>
+    <color name="background_buttons_off">#1B3575</color>
+    <color name="button_off">#595959</color>
 
 
-    <color name="background_buttons3">#2151CA</color>
+    <color name="text_color">#1D1D1D</color>
 
 
     <color name="FUCK_YOU_PUSHERS">#2151CA</color>

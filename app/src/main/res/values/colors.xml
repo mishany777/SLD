@@ -12,6 +12,9 @@
     <color name="background_buttons">#305CCA</color>
     <color name="background_buttons_off">#1B3575</color>
     <color name="button_off">#595959</color>
+    <color name="main_color">#130041</color>
+
+
 
 
     <color name="text_color">#1D1D1D</color>

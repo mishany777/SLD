@@ -18,10 +18,13 @@
             android:name=".HeightPage"
             android:exported="false" />
         <activity
+            android:name=".LogInPage"
+            android:exported="false" />
+        <activity
             android:name=".SexPage"
             android:exported="false" />
         <activity
-            android:name=".StarterPage"
+            android:name=".HiPage"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -2728,6 +2728,7 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable button_bakcground
 drawable button_pol
 drawable buy
 drawable circle_top_splash
@@ -2737,6 +2738,7 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable edittext_background
 drawable ethereum
 drawable float_icon
 drawable heart
@@ -2934,6 +2936,7 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id buttonImageView
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -3045,6 +3048,7 @@ id grouping
 id groups
 id header_title
 id height
+id heightField
 id hideable
 id home
 id homeAsUp
@@ -3060,7 +3064,6 @@ id imageView
 id imageView2
 id imageView3
 id imageView4
-id imageView5
 id immediateStop
 id included
 id indeterminate
@@ -3153,6 +3156,7 @@ id never
 id neverCompleteToEnd
 id neverCompleteToStart
 id nextPageButtonHeight
+id nextPageButtonLogin
 id noScroll
 id noState
 id none
@@ -3293,11 +3297,15 @@ id textSpacerNoTitle
 id textStart
 id textTop
 id textView
+id textView10
 id textView2
 id textView3
 id textView4
 id textView5
 id textView6
+id textView7
+id textView8
+id textView9
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3328,6 +3336,7 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id usernameField
 id vertical_only
 id view_offset_helper
 id view_transition
@@ -3337,6 +3346,7 @@ id view_tree_saved_state_registry_owner
 id view_tree_view_model_store_owner
 id visible
 id visible_removing_fragment_view_tag
+id weightField
 id west
 id withText
 id with_icon
@@ -3470,6 +3480,7 @@ layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout height_page
 layout hi_page
+layout log_in_page
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title

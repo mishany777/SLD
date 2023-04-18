@@ -21,7 +21,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/button2"
+        android:id="@+id/nextPageButtonLogin"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="64dp"
@@ -30,15 +30,15 @@
         android:textColor="@color/white"
         android:textSize="18dp"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonWeight"
+        app:layout_constraintEnd_toEndOf="@+id/weightField"
 
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonWeight"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonWeight"
+        app:layout_constraintStart_toStartOf="@+id/weightField"
+        app:layout_constraintTop_toBottomOf="@+id/weightField"
         app:layout_goneMarginTop="64dp" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/usernameField"
         android:layout_width="0dp"
         android:layout_height="50dp"
         android:layout_marginTop="16dp"
@@ -57,7 +57,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView8" />
 
     <EditText
-        android:id="@+id/editTextTextPersonHheight"
+        android:id="@+id/heightField"
         android:layout_width="0dp"
         android:layout_height="50dp"
         android:layout_marginTop="16dp"
@@ -76,7 +76,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView9" />
 
     <EditText
-        android:id="@+id/editTextTextPersonWeight"
+        android:id="@+id/weightField"
         android:layout_width="0dp"
         android:layout_height="50dp"
         android:layout_marginTop="16dp"
@@ -115,8 +115,8 @@
         android:textColor="@color/white"
         android:textSize="20dp"
         android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+        app:layout_constraintStart_toStartOf="@+id/usernameField"
+        app:layout_constraintTop_toBottomOf="@+id/usernameField" />
 
     <TextView
         android:id="@+id/textView10"
@@ -127,8 +127,8 @@
         android:textColor="@color/white"
         android:textSize="20dp"
         android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonHheight"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonHheight" />
+        app:layout_constraintStart_toStartOf="@+id/heightField"
+        app:layout_constraintTop_toBottomOf="@+id/heightField" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

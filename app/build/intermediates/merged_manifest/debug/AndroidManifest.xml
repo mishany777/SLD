@@ -33,10 +33,13 @@
             android:name="com.example.stoplyingdown.HeightPage"
             android:exported="false" />
         <activity
+            android:name="com.example.stoplyingdown.LogInPage"
+            android:exported="false" />
+        <activity
             android:name="com.example.stoplyingdown.SexPage"
             android:exported="false" />
         <activity
-            android:name="com.example.stoplyingdown.StarterPage"
+            android:name="com.example.stoplyingdown.HiPage"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

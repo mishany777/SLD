@@ -7,7 +7,7 @@
     android:background="#130041" >
 
     <ImageView
-        android:id="@+id/imageView5"
+        android:id="@+id/buttonImageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"

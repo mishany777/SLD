@@ -39,9 +39,6 @@
             android:name="com.example.stoplyingdown.LogInPage"
             android:exported="false" />
         <activity
-            android:name="com.example.stoplyingdown.SexPage"
-            android:exported="false" />
-        <activity
             android:name="com.example.stoplyingdown.HiPage"
             android:exported="true" >
             <intent-filter>

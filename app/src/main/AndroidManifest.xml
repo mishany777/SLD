@@ -24,9 +24,6 @@
             android:name=".LogInPage"
             android:exported="false" />
         <activity
-            android:name=".SexPage"
-            android:exported="false" />
-        <activity
             android:name=".HiPage"
             android:exported="true">
             <intent-filter>

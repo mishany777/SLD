@@ -58,7 +58,7 @@ public class LogInPage extends AppCompatActivity {
     }
 
     public void NextPage(View view){
-        Intent intent = new Intent(this, HiPage.class);
+        Intent intent = new Intent(this, new_sex.class);
         System.out.println(sPref.getAll());
         startActivity(intent);
     }

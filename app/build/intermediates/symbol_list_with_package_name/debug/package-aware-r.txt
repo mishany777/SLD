@@ -2938,7 +2938,6 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
-id button2
 id buttonImageView
 id buttonPanel
 id cache_measures
@@ -3063,8 +3062,6 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
-id imageView
-id imageView2
 id imageView3
 id imageView4
 id imageView5
@@ -3304,7 +3301,6 @@ id textView
 id textView10
 id textView11
 id textView2
-id textView3
 id textView4
 id textView5
 id textView6
@@ -3547,7 +3543,6 @@ layout notification_template_part_time
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
-layout sex_page
 layout starter_page
 layout support_simple_spinner_dropdown_item
 layout targets_page

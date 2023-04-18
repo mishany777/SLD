@@ -46,15 +46,11 @@ drawable trox
 drawable women
 font nunitolight
 id active
-id button2
 id buttonImageView
-id confirm_button
 id female_button
 id firstPageButton
 id height
 id heightField
-id imageView
-id imageView2
 id imageView3
 id imageView4
 id imageView5
@@ -67,7 +63,6 @@ id textView
 id textView10
 id textView11
 id textView2
-id textView3
 id textView4
 id textView5
 id textView6
@@ -80,7 +75,6 @@ layout height_page
 layout hi_page
 layout log_in_page
 layout new_sex
-layout sex_page
 layout starter_page
 layout targets_page
 mipmap ic_launcher

@@ -27,7 +27,7 @@
         android:testOnly="true"
         android:theme="@style/Theme.StopLyingDown" >
         <activity
-            android:name="com.example.stoplyingdown.main_page"
+            android:name="com.example.stoplyingdown.MainActivity"
             android:exported="false" />
         <activity
             android:name="com.example.stoplyingdown.new_sex"

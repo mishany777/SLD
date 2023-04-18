@@ -53,7 +53,7 @@ public class new_sex extends AppCompatActivity {
     }
 
     public void NextPage(View view){
-        Intent intent = new Intent(this, HiPage.class);
+        Intent intent = new Intent(this, MainActivity.class);
         System.out.println(sPref.getAll());
         startActivity(intent);
     }

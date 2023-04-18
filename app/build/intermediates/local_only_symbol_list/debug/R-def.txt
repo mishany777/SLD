@@ -52,6 +52,7 @@ id bottomNavigationView
 id buttonImageView
 id female_button
 id firstPageButton
+id frame_layout
 id height
 id heightField
 id home
@@ -76,6 +77,9 @@ id textView8
 id textView9
 id usernameField
 id weightField
+layout activity_main
+layout fragment_home
+layout fragment_profile
 layout height_page
 layout hi_page
 layout log_in_page
@@ -91,6 +95,7 @@ string about_app
 string app_name
 string continue_text
 string female
+string hello_blank_fragment
 string life_style
 string male
 string next

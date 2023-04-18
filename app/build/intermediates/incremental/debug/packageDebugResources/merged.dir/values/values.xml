@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="FUCK_YOU_PUSHERS">#2151CA</color>
+    <color name="background">#FFFFFF</color>
+    <color name="background_buttons">#305CCA</color>
+    <color name="background_buttons2">#FF8121</color>
+    <color name="background_buttons_off">#1B3575</color>
+    <color name="black">#252525</color>
+    <color name="button_off">#595959</color>
+    <color name="green">#32CD32</color>
+    <color name="main_color">#130041</color>
+    <color name="men_color">#6670ff</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="red">#CD5C5C</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="text_color">#1D1D1D</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="women_color">#ff6666</color>
+    <string name="Active">Активный</string>
+    <string name="about_app">StopLyingDown</string>
+    <string name="app_name">StopLyingDown</string>
+    <string name="continue_text">Продолжить</string>
+    <string name="female">Женский</string>
+    <string name="life_style">Образ жизни</string>
+    <string name="male">Мужской</string>
+    <string name="next">Далее</string>
+    <string name="sex_choose">Какого вы пола?</string>
+    <string name="sitting">Сидячий</string>
+    <string name="start_first_page">Хватит валяться</string>
+    <style name="Theme.StopLyingDown" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/main_color</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        
+    </style>
+</resources>

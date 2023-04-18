@@ -2715,6 +2715,8 @@ drawable abc_vector_test
 drawable add
 drawable avd_hide_password
 drawable avd_show_password
+drawable baseline_home_24
+drawable baseline_manage_accounts_24
 drawable bitcoin
 drawable bottom_btn1
 drawable bottom_btn2
@@ -2934,6 +2936,7 @@ id beginning
 id bestChoice
 id blocking
 id bottom
+id bottomNavigationView
 id bounce
 id bounceBoth
 id bounceEnd
@@ -2978,6 +2981,7 @@ id currentState
 id custom
 id customPanel
 id cut
+id dataBinding
 id date_picker_actions
 id decelerate
 id decelerateAndComplete
@@ -3038,6 +3042,7 @@ id flip
 id floating
 id forever
 id fragment_container_view_tag
+id frame_layout
 id frost
 id fullscreen_header
 id ghost_view
@@ -3168,6 +3173,8 @@ id notification_main_column
 id notification_main_column_container
 id off
 id on
+id onAttachStateChangeListener
+id onDateChanged
 id onInterceptTouchReturnSwipe
 id outline
 id outward
@@ -3187,6 +3194,7 @@ id pin
 id position
 id postLayout
 id pressed
+id profile
 id progress_circular
 id progress_horizontal
 id radio
@@ -3307,6 +3315,7 @@ id textView6
 id textView7
 id textView8
 id textView9
+id textWatcher
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3463,6 +3472,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_main
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -3479,6 +3489,8 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout fragment_home
+layout fragment_profile
 layout height_page
 layout hi_page
 layout log_in_page
@@ -3546,6 +3558,7 @@ layout select_dialog_singlechoice_material
 layout starter_page
 layout support_simple_spinner_dropdown_item
 layout targets_page
+menu bottom_nav_menu
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
@@ -3598,6 +3611,7 @@ string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
 string female
+string hello_blank_fragment
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string item_view_role_description

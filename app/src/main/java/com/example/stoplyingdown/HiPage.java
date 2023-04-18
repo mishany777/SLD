@@ -6,15 +6,16 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 
 public class StarterPage extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.starter_page);
+        setContentView(R.layout.hi_page);
 
-        Button startButton = findViewById(R.id.firstPageButton);
+        ImageView startButton = findViewById(R.id.buttonImageView);
         startButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

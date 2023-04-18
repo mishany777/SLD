@@ -2715,6 +2715,8 @@ drawable abc_vector_test
 drawable add
 drawable avd_hide_password
 drawable avd_show_password
+drawable baseline_home_24
+drawable baseline_manage_accounts_24
 drawable bitcoin
 drawable bottom_btn1
 drawable bottom_btn2
@@ -2934,6 +2936,7 @@ id beginning
 id bestChoice
 id blocking
 id bottom
+id bottomNavigationView
 id bounce
 id bounceBoth
 id bounceEnd
@@ -3187,6 +3190,7 @@ id pin
 id position
 id postLayout
 id pressed
+id profile
 id progress_circular
 id progress_horizontal
 id radio
@@ -3487,6 +3491,7 @@ layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
 layout m3_auto_complete_simple_item
 layout m3_side_sheet_dialog
+layout main_page
 layout material_chip_input_combo
 layout material_clock_display
 layout material_clock_display_divider
@@ -3546,6 +3551,7 @@ layout select_dialog_singlechoice_material
 layout starter_page
 layout support_simple_spinner_dropdown_item
 layout targets_page
+menu bottom_nav_menu
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description

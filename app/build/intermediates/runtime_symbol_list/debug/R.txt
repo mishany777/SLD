@@ -2714,6 +2714,8 @@ int drawable abc_vector_test 0x7f070077
 int drawable add 0x7f070078
 int drawable avd_hide_password 0x7f070079
 int drawable avd_show_password 0x7f07007a
+int drawable baseline_home_24 0x7f0700f6
+int drawable baseline_manage_accounts_24 0x7f0700f7
 int drawable bitcoin 0x7f07007b
 int drawable bottom_btn1 0x7f07007c
 int drawable bottom_btn2 0x7f07007d
@@ -2933,6 +2935,7 @@ int id beginning 0x7f09005b
 int id bestChoice 0x7f09005c
 int id blocking 0x7f09005d
 int id bottom 0x7f09005e
+int id bottomNavigationView 0x7f090206
 int id bounce 0x7f09005f
 int id bounceBoth 0x7f090060
 int id bounceEnd 0x7f090061
@@ -3186,6 +3189,7 @@ int id pin 0x7f090158
 int id position 0x7f090159
 int id postLayout 0x7f09015a
 int id pressed 0x7f09015b
+int id profile 0x7f090207
 int id progress_circular 0x7f09015c
 int id progress_horizontal 0x7f09015d
 int id radio 0x7f09015e
@@ -3486,6 +3490,7 @@ int layout m3_alert_dialog_actions 0x7f0c0030
 int layout m3_alert_dialog_title 0x7f0c0031
 int layout m3_auto_complete_simple_item 0x7f0c0032
 int layout m3_side_sheet_dialog 0x7f0c0033
+int layout main_page 0x7f0c006f
 int layout material_chip_input_combo 0x7f0c0034
 int layout material_clock_display 0x7f0c0035
 int layout material_clock_display_divider 0x7f0c0036
@@ -3545,6 +3550,7 @@ int layout select_dialog_singlechoice_material 0x7f0c006b
 int layout starter_page 0x7f0c006c
 int layout support_simple_spinner_dropdown_item 0x7f0c006d
 int layout targets_page 0x7f0c006e
+int menu bottom_nav_menu 0x7f140000
 int mipmap ic_launcher 0x7f0e0000
 int mipmap ic_launcher_round 0x7f0e0001
 int plurals mtrl_badge_content_description 0x7f0f0000

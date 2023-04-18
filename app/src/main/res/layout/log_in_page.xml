@@ -13,7 +13,8 @@
 
         android:layout_marginStart="32dp"
         android:layout_marginTop="104dp"
-        android:text="Log in"
+        android:text="Вход"
+        android:fontFamily="@font/nunitolight"
         android:textColor="@color/white"
         android:textSize="50dp"
         android:textStyle="bold"
@@ -28,6 +29,7 @@
         android:background="@drawable/button_bakcground"
         android:text="Далее"
         android:textColor="@color/white"
+        android:fontFamily="@font/nunitolight"
         android:textSize="18dp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@+id/weightField"
@@ -46,6 +48,7 @@
         android:background="@drawable/edittext_background"
         android:ems="10"
         android:inputType="textPersonName"
+        android:fontFamily="@font/nunitolight"
 
         android:padding="8dp"
         android:textColor="#707070"
@@ -65,7 +68,8 @@
         android:background="@drawable/edittext_background"
         android:ems="10"
 
-        android:inputType="textPersonName"
+        android:inputType="number"
+        android:fontFamily="@font/nunitolight"
         android:padding="8dp"
         android:textColor="#707070"
 
@@ -84,12 +88,13 @@
         android:background="@drawable/edittext_background"
 
         android:ems="10"
-        android:inputType="textPersonName"
+        android:inputType="number"
         android:padding="8dp"
 
         android:textColor="#707070"
         android:textSize="20dp"
         app:layout_constraintEnd_toEndOf="parent"
+        android:fontFamily="@font/nunitolight"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/textView8"
         app:layout_constraintTop_toBottomOf="@+id/textView10" />
@@ -101,6 +106,7 @@
         android:layout_marginTop="32dp"
         android:text="Имя пользователя"
         android:textColor="@color/white"
+        android:fontFamily="@font/nunitolight"
         android:textSize="20dp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="@+id/textView7"
@@ -114,6 +120,7 @@
         android:text="Рост"
         android:textColor="@color/white"
         android:textSize="20dp"
+        android:fontFamily="@font/nunitolight"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="@+id/usernameField"
         app:layout_constraintTop_toBottomOf="@+id/usernameField" />
@@ -122,6 +129,7 @@
         android:id="@+id/textView10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/nunitolight"
         android:layout_marginTop="32dp"
         android:text="Вес"
         android:textColor="@color/white"

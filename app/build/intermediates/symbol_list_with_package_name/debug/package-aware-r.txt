@@ -2769,6 +2769,7 @@ drawable m3_tabs_line_indicator
 drawable m3_tabs_rounded_line_indicator
 drawable m3_tabs_transparent_background
 drawable man
+drawable manwom
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
@@ -2837,6 +2838,7 @@ drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable trox
 drawable women
+font nunitolight
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -2936,6 +2938,7 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id button2
 id buttonImageView
 id buttonPanel
 id cache_measures
@@ -3064,6 +3067,7 @@ id imageView
 id imageView2
 id imageView3
 id imageView4
+id imageView5
 id immediateStop
 id included
 id indeterminate
@@ -3298,6 +3302,7 @@ id textStart
 id textTop
 id textView
 id textView10
+id textView11
 id textView2
 id textView3
 id textView4
@@ -3532,6 +3537,7 @@ layout mtrl_picker_text_input_date
 layout mtrl_picker_text_input_date_range
 layout mtrl_search_bar
 layout mtrl_search_view
+layout new_sex
 layout notification_action
 layout notification_action_tombstone
 layout notification_template_custom_big

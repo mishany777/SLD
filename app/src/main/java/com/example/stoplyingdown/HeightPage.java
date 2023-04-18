@@ -12,7 +12,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.Toast;
 
 public class HeightPage extends AppCompatActivity {
     public static final String APP_PREFERENCES_NAME = "userinfo";
@@ -64,7 +63,7 @@ public class HeightPage extends AppCompatActivity {
     }
 
     public void NextPage(View view){
-        Intent intent = new Intent(this, StarterPage.class);
+        Intent intent = new Intent(this, HiPage.class);
         System.out.println(sPref.getAll());
         startActivity(intent);
     }

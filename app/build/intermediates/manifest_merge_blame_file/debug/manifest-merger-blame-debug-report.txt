@@ -22,7 +22,7 @@
 15-->[androidx.core:core:1.9.0] /Users/daniil/.gradle/caches/transforms-3/ec4f76f6c0c02de8ba18086e7bd9baf5/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
 16
 17    <application
-17-->/Users/daniil/AndroidStudioProjects/SLD/app/src/main/AndroidManifest.xml:5:5-38:19
+17-->/Users/daniil/AndroidStudioProjects/SLD/app/src/main/AndroidManifest.xml:5:5-39:19
 18        android:allowBackup="true"
 18-->/Users/daniil/AndroidStudioProjects/SLD/app/src/main/AndroidManifest.xml:6:9-35
 19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -43,74 +43,75 @@
 28        android:theme="@style/Theme.StopLyingDown" >
 28-->/Users/daniil/AndroidStudioProjects/SLD/app/src/main/AndroidManifest.xml:12:9-51
 29        <activity
-29-->/Users/daniil/AndroidStudioProjects/SLD/app/src/main/AndroidManifest.xml:14:9-16:40
+29-->/Users/daniil/AndroidStudioProjects/SLD/app/src/main/AndroidManifest.xml:14:9-22:20
 30            android:name="com.example.stoplyingdown.MainActivity"
 30-->/Users/daniil/AndroidStudioProjects/SLD/app/src/main/AndroidManifest.xml:15:13-41
-31            android:exported="false" />
-31-->/Users/daniil/AndroidStudioProjects/SLD/app/src/main/AndroidManifest.xml:16:13-37
-32        <activity
-32-->/Users/daniil/AndroidStudioProjects/SLD/app/src/main/AndroidManifest.xml:17:9-19:40
-33            android:name="com.example.stoplyingdown.new_sex"
-33-->/Users/daniil/AndroidStudioProjects/SLD/app/src/main/AndroidManifest.xml:18:13-36
-34            android:exported="false" />
-34-->/Users/daniil/AndroidStudioProjects/SLD/app/src/main/AndroidManifest.xml:19:13-37
-35        <activity
-35-->/Users/daniil/AndroidStudioProjects/SLD/app/src/main/AndroidManifest.xml:20:9-22:40
-36            android:name="com.example.stoplyingdown.TargetsPage"
-36-->/Users/daniil/AndroidStudioProjects/SLD/app/src/main/AndroidManifest.xml:21:13-40
-37            android:exported="false" />
-37-->/Users/daniil/AndroidStudioProjects/SLD/app/src/main/AndroidManifest.xml:22:13-37
+31            android:exported="true" >
+31-->/Users/daniil/AndroidStudioProjects/SLD/app/src/main/AndroidManifest.xml:16:13-36
+32            <intent-filter>
+32-->/Users/daniil/AndroidStudioProjects/SLD/app/src/main/AndroidManifest.xml:17:13-21:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->/Users/daniil/AndroidStudioProjects/SLD/app/src/main/AndroidManifest.xml:18:17-69
+33-->/Users/daniil/AndroidStudioProjects/SLD/app/src/main/AndroidManifest.xml:18:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->/Users/daniil/AndroidStudioProjects/SLD/app/src/main/AndroidManifest.xml:20:17-77
+35-->/Users/daniil/AndroidStudioProjects/SLD/app/src/main/AndroidManifest.xml:20:27-74
+36            </intent-filter>
+37        </activity>
 38        <activity
 38-->/Users/daniil/AndroidStudioProjects/SLD/app/src/main/AndroidManifest.xml:23:9-25:40
-39            android:name="com.example.stoplyingdown.HeightPage"
-39-->/Users/daniil/AndroidStudioProjects/SLD/app/src/main/AndroidManifest.xml:24:13-39
+39            android:name="com.example.stoplyingdown.new_sex"
+39-->/Users/daniil/AndroidStudioProjects/SLD/app/src/main/AndroidManifest.xml:24:13-36
 40            android:exported="false" />
 40-->/Users/daniil/AndroidStudioProjects/SLD/app/src/main/AndroidManifest.xml:25:13-37
 41        <activity
 41-->/Users/daniil/AndroidStudioProjects/SLD/app/src/main/AndroidManifest.xml:26:9-28:40
-42            android:name="com.example.stoplyingdown.LogInPage"
-42-->/Users/daniil/AndroidStudioProjects/SLD/app/src/main/AndroidManifest.xml:27:13-38
+42            android:name="com.example.stoplyingdown.TargetsPage"
+42-->/Users/daniil/AndroidStudioProjects/SLD/app/src/main/AndroidManifest.xml:27:13-40
 43            android:exported="false" />
 43-->/Users/daniil/AndroidStudioProjects/SLD/app/src/main/AndroidManifest.xml:28:13-37
 44        <activity
-44-->/Users/daniil/AndroidStudioProjects/SLD/app/src/main/AndroidManifest.xml:29:9-37:20
-45            android:name="com.example.stoplyingdown.HiPage"
-45-->/Users/daniil/AndroidStudioProjects/SLD/app/src/main/AndroidManifest.xml:30:13-35
-46            android:exported="true" >
-46-->/Users/daniil/AndroidStudioProjects/SLD/app/src/main/AndroidManifest.xml:31:13-36
-47            <intent-filter>
-47-->/Users/daniil/AndroidStudioProjects/SLD/app/src/main/AndroidManifest.xml:32:13-36:29
-48                <action android:name="android.intent.action.MAIN" />
-48-->/Users/daniil/AndroidStudioProjects/SLD/app/src/main/AndroidManifest.xml:33:17-69
-48-->/Users/daniil/AndroidStudioProjects/SLD/app/src/main/AndroidManifest.xml:33:25-66
-49
-50                <category android:name="android.intent.category.LAUNCHER" />
-50-->/Users/daniil/AndroidStudioProjects/SLD/app/src/main/AndroidManifest.xml:35:17-77
-50-->/Users/daniil/AndroidStudioProjects/SLD/app/src/main/AndroidManifest.xml:35:27-74
-51            </intent-filter>
-52        </activity>
-53
-54        <provider
-54-->[androidx.emoji2:emoji2:1.2.0] /Users/daniil/.gradle/caches/transforms-3/791b39fe68826e8543c46f2d7f8b152e/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
-55            android:name="androidx.startup.InitializationProvider"
-55-->[androidx.emoji2:emoji2:1.2.0] /Users/daniil/.gradle/caches/transforms-3/791b39fe68826e8543c46f2d7f8b152e/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
-56            android:authorities="com.example.stoplyingdown.androidx-startup"
-56-->[androidx.emoji2:emoji2:1.2.0] /Users/daniil/.gradle/caches/transforms-3/791b39fe68826e8543c46f2d7f8b152e/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
-57            android:exported="false" >
-57-->[androidx.emoji2:emoji2:1.2.0] /Users/daniil/.gradle/caches/transforms-3/791b39fe68826e8543c46f2d7f8b152e/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
-58            <meta-data
-58-->[androidx.emoji2:emoji2:1.2.0] /Users/daniil/.gradle/caches/transforms-3/791b39fe68826e8543c46f2d7f8b152e/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
-59                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-59-->[androidx.emoji2:emoji2:1.2.0] /Users/daniil/.gradle/caches/transforms-3/791b39fe68826e8543c46f2d7f8b152e/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
-60                android:value="androidx.startup" />
-60-->[androidx.emoji2:emoji2:1.2.0] /Users/daniil/.gradle/caches/transforms-3/791b39fe68826e8543c46f2d7f8b152e/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
-61            <meta-data
-61-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/daniil/.gradle/caches/transforms-3/86041ab2b0d2128b301212662b855cec/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
-62                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-62-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/daniil/.gradle/caches/transforms-3/86041ab2b0d2128b301212662b855cec/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
-63                android:value="androidx.startup" />
-63-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/daniil/.gradle/caches/transforms-3/86041ab2b0d2128b301212662b855cec/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
-64        </provider>
-65    </application>
-66
-67</manifest>
+44-->/Users/daniil/AndroidStudioProjects/SLD/app/src/main/AndroidManifest.xml:29:9-31:40
+45            android:name="com.example.stoplyingdown.HeightPage"
+45-->/Users/daniil/AndroidStudioProjects/SLD/app/src/main/AndroidManifest.xml:30:13-39
+46            android:exported="false" />
+46-->/Users/daniil/AndroidStudioProjects/SLD/app/src/main/AndroidManifest.xml:31:13-37
+47        <activity
+47-->/Users/daniil/AndroidStudioProjects/SLD/app/src/main/AndroidManifest.xml:32:9-34:40
+48            android:name="com.example.stoplyingdown.LogInPage"
+48-->/Users/daniil/AndroidStudioProjects/SLD/app/src/main/AndroidManifest.xml:33:13-38
+49            android:exported="false" />
+49-->/Users/daniil/AndroidStudioProjects/SLD/app/src/main/AndroidManifest.xml:34:13-37
+50        <activity
+50-->/Users/daniil/AndroidStudioProjects/SLD/app/src/main/AndroidManifest.xml:35:9-38:20
+51            android:name="com.example.stoplyingdown.HiPage"
+51-->/Users/daniil/AndroidStudioProjects/SLD/app/src/main/AndroidManifest.xml:36:13-35
+52            android:exported="false" >
+52-->/Users/daniil/AndroidStudioProjects/SLD/app/src/main/AndroidManifest.xml:37:13-37
+53        </activity>
+54
+55        <provider
+55-->[androidx.emoji2:emoji2:1.2.0] /Users/daniil/.gradle/caches/transforms-3/791b39fe68826e8543c46f2d7f8b152e/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+56            android:name="androidx.startup.InitializationProvider"
+56-->[androidx.emoji2:emoji2:1.2.0] /Users/daniil/.gradle/caches/transforms-3/791b39fe68826e8543c46f2d7f8b152e/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+57            android:authorities="com.example.stoplyingdown.androidx-startup"
+57-->[androidx.emoji2:emoji2:1.2.0] /Users/daniil/.gradle/caches/transforms-3/791b39fe68826e8543c46f2d7f8b152e/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+58            android:exported="false" >
+58-->[androidx.emoji2:emoji2:1.2.0] /Users/daniil/.gradle/caches/transforms-3/791b39fe68826e8543c46f2d7f8b152e/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+59            <meta-data
+59-->[androidx.emoji2:emoji2:1.2.0] /Users/daniil/.gradle/caches/transforms-3/791b39fe68826e8543c46f2d7f8b152e/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+60                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+60-->[androidx.emoji2:emoji2:1.2.0] /Users/daniil/.gradle/caches/transforms-3/791b39fe68826e8543c46f2d7f8b152e/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+61                android:value="androidx.startup" />
+61-->[androidx.emoji2:emoji2:1.2.0] /Users/daniil/.gradle/caches/transforms-3/791b39fe68826e8543c46f2d7f8b152e/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+62            <meta-data
+62-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/daniil/.gradle/caches/transforms-3/86041ab2b0d2128b301212662b855cec/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+63                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+63-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/daniil/.gradle/caches/transforms-3/86041ab2b0d2128b301212662b855cec/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+64                android:value="androidx.startup" />
+64-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/daniil/.gradle/caches/transforms-3/86041ab2b0d2128b301212662b855cec/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+65        </provider>
+66    </application>
+67
+68</manifest>

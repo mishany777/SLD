@@ -17,6 +17,12 @@
 
 
 
+    <color name="botton_nav_on">#F81B1B</color>
+    <color name="botton_nav_off">#37DC2B</color>
+
+
+
+
     <color name="text_color">#1D1D1D</color>
 
 

@@ -6,6 +6,8 @@
     <color name="background_buttons2">#FF8121</color>
     <color name="background_buttons_off">#1B3575</color>
     <color name="black">#252525</color>
+    <color name="botton_nav_off">#37DC2B</color>
+    <color name="botton_nav_on">#F81B1B</color>
     <color name="button_off">#595959</color>
     <color name="green">#32CD32</color>
     <color name="main_color">#130041</color>

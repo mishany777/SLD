@@ -1310,6 +1310,8 @@ color background_floating_material_light
 color background_material_dark
 color background_material_light
 color black
+color botton_nav_off
+color botton_nav_on
 color bright_foreground_disabled_material_dark
 color bright_foreground_disabled_material_light
 color bright_foreground_inverse_material_dark
@@ -2722,6 +2724,7 @@ drawable bottom_btn1
 drawable bottom_btn2
 drawable bottom_btn3
 drawable bottom_btn4
+drawable bottom_nav_icon_color_selector
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl

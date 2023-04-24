@@ -11,20 +11,19 @@
         android:id="@+id/frame_layout"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:background="#FEFEFE"
+        android:background="@color/main_mak"
         app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-    </FrameLayout>
+        app:layout_constraintTop_toTopOf="parent"></FrameLayout>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottomNavigationView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#130041"
-        app:itemRippleColor="#00FF5722"
+        android:background="@color/main_mak"
         app:itemIconTint="@drawable/bottom_nav_icon_color_selector"
+        app:itemRippleColor="#00FF5722"
         app:itemTextColor="@drawable/bottom_nav_icon_color_selector"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

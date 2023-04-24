@@ -4,25 +4,46 @@ package com.example.stoplyingdown.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.FrameLayout;
+import android.widget.ImageButton;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.example.stoplyingdown.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
+import java.lang.String;
 
 public final class FragmentHomeBinding implements ViewBinding {
   @NonNull
-  private final FrameLayout rootView;
+  private final ConstraintLayout rootView;
 
-  private FragmentHomeBinding(@NonNull FrameLayout rootView) {
+  @NonNull
+  public final ImageButton imageButton2;
+
+  @NonNull
+  public final ImageButton imageButton3;
+
+  @NonNull
+  public final ImageButton imageButton4;
+
+  @NonNull
+  public final ImageButton imageView7;
+
+  private FragmentHomeBinding(@NonNull ConstraintLayout rootView, @NonNull ImageButton imageButton2,
+      @NonNull ImageButton imageButton3, @NonNull ImageButton imageButton4,
+      @NonNull ImageButton imageView7) {
     this.rootView = rootView;
+    this.imageButton2 = imageButton2;
+    this.imageButton3 = imageButton3;
+    this.imageButton4 = imageButton4;
+    this.imageView7 = imageView7;
   }
 
   @Override
   @NonNull
-  public FrameLayout getRoot() {
+  public ConstraintLayout getRoot() {
     return rootView;
   }
 
@@ -43,10 +64,38 @@ public final class FragmentHomeBinding implements ViewBinding {
 
   @NonNull
   public static FragmentHomeBinding bind(@NonNull View rootView) {
-    if (rootView == null) {
-      throw new NullPointerException("rootView");
-    }
+    // The body of this method is generated in a way you would not otherwise write.
+    // This is done to optimize the compiled bytecode for size and performance.
+    int id;
+    missingId: {
+      id = R.id.imageButton2;
+      ImageButton imageButton2 = ViewBindings.findChildViewById(rootView, id);
+      if (imageButton2 == null) {
+        break missingId;
+      }
 
-    return new FragmentHomeBinding((FrameLayout) rootView);
+      id = R.id.imageButton3;
+      ImageButton imageButton3 = ViewBindings.findChildViewById(rootView, id);
+      if (imageButton3 == null) {
+        break missingId;
+      }
+
+      id = R.id.imageButton4;
+      ImageButton imageButton4 = ViewBindings.findChildViewById(rootView, id);
+      if (imageButton4 == null) {
+        break missingId;
+      }
+
+      id = R.id.imageView7;
+      ImageButton imageView7 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView7 == null) {
+        break missingId;
+      }
+
+      return new FragmentHomeBinding((ConstraintLayout) rootView, imageButton2, imageButton3,
+          imageButton4, imageView7);
+    }
+    String missingId = rootView.getResources().getResourceName(id);
+    throw new NullPointerException("Missing required view with ID: ".concat(missingId));
   }
 }

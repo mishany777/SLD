@@ -33,8 +33,9 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="outputName" value="baseline_manage_accounts_24" />
-                            <entry key="sourceFile" value="C:\Users\pc\Desktop\SLD" />
+                            <entry key="assetSourceType" value="FILE" />
+                            <entry key="outputName" value="free_icon_font_user_3917711" />
+                            <entry key="sourceFile" value="C:\Users\pc\Downloads\free-icon-font-user-3917711.svg" />
                           </map>
                         </option>
                       </PersistentState>

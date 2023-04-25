@@ -21,16 +21,13 @@ public final class FragmentHomeBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final ImageButton imageButton2;
+  public final ImageButton activityButton;
 
   @NonNull
-  public final ImageButton imageButton3;
+  public final ImageButton foodButton;
 
   @NonNull
-  public final ImageButton imageButton4;
-
-  @NonNull
-  public final ImageButton imageView7;
+  public final ImageButton sleepButton;
 
   @NonNull
   public final TextView textView3;
@@ -44,19 +41,23 @@ public final class FragmentHomeBinding implements ViewBinding {
   @NonNull
   public final TextView textView70;
 
-  private FragmentHomeBinding(@NonNull ConstraintLayout rootView, @NonNull ImageButton imageButton2,
-      @NonNull ImageButton imageButton3, @NonNull ImageButton imageButton4,
-      @NonNull ImageButton imageView7, @NonNull TextView textView3, @NonNull TextView textView50,
-      @NonNull TextView textView51, @NonNull TextView textView70) {
+  @NonNull
+  public final ImageButton waterButton;
+
+  private FragmentHomeBinding(@NonNull ConstraintLayout rootView,
+      @NonNull ImageButton activityButton, @NonNull ImageButton foodButton,
+      @NonNull ImageButton sleepButton, @NonNull TextView textView3, @NonNull TextView textView50,
+      @NonNull TextView textView51, @NonNull TextView textView70,
+      @NonNull ImageButton waterButton) {
     this.rootView = rootView;
-    this.imageButton2 = imageButton2;
-    this.imageButton3 = imageButton3;
-    this.imageButton4 = imageButton4;
-    this.imageView7 = imageView7;
+    this.activityButton = activityButton;
+    this.foodButton = foodButton;
+    this.sleepButton = sleepButton;
     this.textView3 = textView3;
     this.textView50 = textView50;
     this.textView51 = textView51;
     this.textView70 = textView70;
+    this.waterButton = waterButton;
   }
 
   @Override
@@ -86,27 +87,21 @@ public final class FragmentHomeBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.imageButton2;
-      ImageButton imageButton2 = ViewBindings.findChildViewById(rootView, id);
-      if (imageButton2 == null) {
+      id = R.id.activity_button;
+      ImageButton activityButton = ViewBindings.findChildViewById(rootView, id);
+      if (activityButton == null) {
         break missingId;
       }
 
-      id = R.id.imageButton3;
-      ImageButton imageButton3 = ViewBindings.findChildViewById(rootView, id);
-      if (imageButton3 == null) {
+      id = R.id.food_button;
+      ImageButton foodButton = ViewBindings.findChildViewById(rootView, id);
+      if (foodButton == null) {
         break missingId;
       }
 
-      id = R.id.imageButton4;
-      ImageButton imageButton4 = ViewBindings.findChildViewById(rootView, id);
-      if (imageButton4 == null) {
-        break missingId;
-      }
-
-      id = R.id.imageView7;
-      ImageButton imageView7 = ViewBindings.findChildViewById(rootView, id);
-      if (imageView7 == null) {
+      id = R.id.sleep_button;
+      ImageButton sleepButton = ViewBindings.findChildViewById(rootView, id);
+      if (sleepButton == null) {
         break missingId;
       }
 
@@ -134,8 +129,14 @@ public final class FragmentHomeBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentHomeBinding((ConstraintLayout) rootView, imageButton2, imageButton3,
-          imageButton4, imageView7, textView3, textView50, textView51, textView70);
+      id = R.id.water_button;
+      ImageButton waterButton = ViewBindings.findChildViewById(rootView, id);
+      if (waterButton == null) {
+        break missingId;
+      }
+
+      return new FragmentHomeBinding((ConstraintLayout) rootView, activityButton, foodButton,
+          sleepButton, textView3, textView50, textView51, textView70, waterButton);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

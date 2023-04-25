@@ -1,5 +1,6 @@
 package com.example.stoplyingdown;
 
+import android.graphics.Color;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -7,6 +8,10 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.TextView;
+
+import org.w3c.dom.Text;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -19,6 +24,8 @@ public class ProfileFragment extends Fragment {
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_PARAM2 = "param2";
+
+    private static Boolean isEdit = false;
 
     // TODO: Rename and change types of parameters
     private String mParam1;
@@ -58,7 +65,34 @@ public class ProfileFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+        View inflatedView = inflater.inflate(R.layout.fragment_profile, container, false);
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_profile, container, false);
+        TextView height_field = inflatedView.findViewById(R.id.height_number);
+        TextView weight_field = inflatedView.findViewById(R.id.weight_number);
+        TextView sex_field = inflatedView.findViewById(R.id.sex_number);
+
+        Button editbutton = inflatedView.findViewById(R.id.edit_button);
+
+        editbutton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if (isEdit){
+                    editbutton.setText("Редактировать");
+                    isEdit = false;
+                }
+                else{
+                    editbutton.setText("Сохранить ✓︎");
+                    isEdit = true;
+                }
+            }
+        });
+        height_field.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                System.out.println("REDACT MEEE");
+            }
+        });
+
+        return inflatedView;
     }
 }

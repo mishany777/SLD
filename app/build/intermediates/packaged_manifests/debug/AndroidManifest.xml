@@ -28,28 +28,21 @@
         android:theme="@style/Theme.StopLyingDown" >
         <activity
             android:name="com.example.stoplyingdown.MainActivity"
-            android:exported="true" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name="com.example.stoplyingdown.new_sex"
             android:exported="false" />
         <activity
-            android:name="com.example.stoplyingdown.TargetsPage"
-            android:exported="false" />
-        <activity
-            android:name="com.example.stoplyingdown.HeightPage"
+            android:name="com.example.stoplyingdown.SexPage"
             android:exported="false" />
         <activity
             android:name="com.example.stoplyingdown.LogInPage"
             android:exported="false" />
         <activity
             android:name="com.example.stoplyingdown.HiPage"
-            android:exported="false" >
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
 
         <provider

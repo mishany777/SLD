@@ -22,13 +22,16 @@ public class MainActivity extends AppCompatActivity {
 
         binding.bottomNavigationView.setOnItemSelectedListener(item -> {
             switch (item.getItemId()){
-
-                case R.id.home:
+                case R.id.home_fragment:
                     replaceFragment(new HomeFragment());
                     break;
 
-                case R.id.profile:
+                case R.id.profile_fragment:
                     replaceFragment(new ProfileFragment());
+                    break;
+
+                case R.id.aim_fragment:
+                    replaceFragment(new AimFragment());
                     break;
             }
             return true;

@@ -9,13 +9,13 @@
 
     <TextView
         android:id="@+id/textView24"
-        android:layout_width="wrap_content"
+        android:layout_width="109dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:background="@drawable/top_button_backgroung"
-        android:paddingHorizontal="20dp"
         android:paddingVertical="5dp"
-        android:text="Возраст"
+        android:text="Пол"
+        android:gravity="center"
         android:textColor="@color/white"
         android:textSize="18sp"
         android:textStyle="bold"
@@ -24,7 +24,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView20" />
 
     <TextView
-        android:id="@+id/textView23"
+        android:id="@+id/weight_number"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -37,11 +37,11 @@
         app:layout_constraintTop_toTopOf="@+id/textView20" />
 
     <TextView
-        android:id="@+id/textView25"
+        android:id="@+id/sex_number"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:text="24"
+        android:text="Мужской"
         android:textColor="@color/black"
         android:textSize="24sp"
         android:textStyle="bold"
@@ -51,11 +51,11 @@
 
     <ImageView
         android:id="@+id/imageView10"
+        android:layout_marginTop="-1dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/top_backgroundpr"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -86,12 +86,12 @@
 
     <TextView
         android:id="@+id/textView19"
-        android:layout_width="wrap_content"
+        android:layout_width="109dp"
+        android:gravity="center"
         android:layout_height="wrap_content"
         android:layout_marginTop="64dp"
         android:layout_marginEnd="80dp"
         android:background="@drawable/top_button_backgroung"
-        android:paddingHorizontal="32dp"
         android:paddingVertical="5dp"
         android:text="Рост"
         android:textColor="@color/white"
@@ -103,11 +103,11 @@
 
     <TextView
         android:id="@+id/textView20"
-        android:layout_width="wrap_content"
+        android:layout_width="109dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:background="@drawable/top_button_backgroung"
-        android:paddingHorizontal="38dp"
+        android:gravity="center"
         android:paddingVertical="5dp"
         android:text="Вес"
         android:textColor="@color/white"
@@ -118,7 +118,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView19" />
 
     <TextView
-        android:id="@+id/textView22"
+        android:id="@+id/height_number"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -146,7 +146,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView13" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/button"
+        android:id="@+id/edit_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="64dp"

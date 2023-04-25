@@ -1,42 +1,38 @@
 [
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-mergeDebugResources-30:/layout/targets_page.xml",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/layout/targets_page.xml"
+        "merged": "com.example.stoplyingdown.app-mergeDebugResources-30:/layout/height_page.xml",
+        "source": "com.example.stoplyingdown.app-main-33:/layout/height_page.xml"
     },
     {
         "merged": "com.example.stoplyingdown.app-mergeDebugResources-30:/layout/fragment_home.xml",
         "source": "com.example.stoplyingdown.app-main-33:/layout/fragment_home.xml"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-mergeDebugResources-30:/layout/fragment_home.xml",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/layout/fragment_home.xml"
+        "merged": "com.example.stoplyingdown.app-mergeDebugResources-30:/layout/log_in_page.xml",
+        "source": "com.example.stoplyingdown.app-main-33:/layout/log_in_page.xml"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-mergeDebugResources-30:/layout/log_in_page.xml",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/layout/log_in_page.xml"
+        "merged": "com.example.stoplyingdown.app-mergeDebugResources-30:/layout/starter_page.xml",
+        "source": "com.example.stoplyingdown.app-main-33:/layout/starter_page.xml"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-mergeDebugResources-30:/layout/starter_page.xml",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/layout/starter_page.xml"
+        "merged": "com.example.stoplyingdown.app-mergeDebugResources-30:/layout/new_sex.xml",
+        "source": "com.example.stoplyingdown.app-main-33:/layout/new_sex.xml"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-mergeDebugResources-30:/layout/activity_main.xml",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/layout/activity_main.xml"
+        "merged": "com.example.stoplyingdown.app-mergeDebugResources-30:/layout/targets_page.xml",
+        "source": "com.example.stoplyingdown.app-main-33:/layout/targets_page.xml"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-mergeDebugResources-30:/layout/hi_page.xml",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/layout/hi_page.xml"
+        "merged": "com.example.stoplyingdown.app-mergeDebugResources-30:/layout/fragment_profile.xml",
+        "source": "com.example.stoplyingdown.app-main-33:/layout/fragment_profile.xml"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-mergeDebugResources-30:/layout/height_page.xml",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/layout/height_page.xml"
+        "merged": "com.example.stoplyingdown.app-mergeDebugResources-30:/layout/hi_page.xml",
+        "source": "com.example.stoplyingdown.app-main-33:/layout/hi_page.xml"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-mergeDebugResources-30:/layout/new_sex.xml",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/layout/new_sex.xml"
-    },
-    {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-mergeDebugResources-30:/layout/fragment_profile.xml",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/layout/fragment_profile.xml"
+        "merged": "com.example.stoplyingdown.app-mergeDebugResources-30:/layout/activity_main.xml",
+        "source": "com.example.stoplyingdown.app-main-33:/layout/activity_main.xml"
     }
 ]

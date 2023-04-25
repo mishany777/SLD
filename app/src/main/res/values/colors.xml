@@ -15,12 +15,13 @@
     <color name="main_color">#130041</color>
     <color name="storke">#E3E3E3</color>
     <color name="main_mak">#FDFDFD</color>
+    <color name="main_button">#4056FF</color>
 
 
 
 
-    <color name="botton_nav_on">#F81B1B</color>
-    <color name="botton_nav_off">#37DC2B</color>
+    <color name="botton_nav_on">#4056FF</color>
+    <color name="botton_nav_off">#9E9FA3</color>
 
 
 

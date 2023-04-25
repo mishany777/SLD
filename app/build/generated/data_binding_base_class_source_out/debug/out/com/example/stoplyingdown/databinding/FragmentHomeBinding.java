@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageButton;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -31,14 +32,31 @@ public final class FragmentHomeBinding implements ViewBinding {
   @NonNull
   public final ImageButton imageView7;
 
+  @NonNull
+  public final TextView textView3;
+
+  @NonNull
+  public final TextView textView50;
+
+  @NonNull
+  public final TextView textView51;
+
+  @NonNull
+  public final TextView textView70;
+
   private FragmentHomeBinding(@NonNull ConstraintLayout rootView, @NonNull ImageButton imageButton2,
       @NonNull ImageButton imageButton3, @NonNull ImageButton imageButton4,
-      @NonNull ImageButton imageView7) {
+      @NonNull ImageButton imageView7, @NonNull TextView textView3, @NonNull TextView textView50,
+      @NonNull TextView textView51, @NonNull TextView textView70) {
     this.rootView = rootView;
     this.imageButton2 = imageButton2;
     this.imageButton3 = imageButton3;
     this.imageButton4 = imageButton4;
     this.imageView7 = imageView7;
+    this.textView3 = textView3;
+    this.textView50 = textView50;
+    this.textView51 = textView51;
+    this.textView70 = textView70;
   }
 
   @Override
@@ -92,8 +110,32 @@ public final class FragmentHomeBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.textView3;
+      TextView textView3 = ViewBindings.findChildViewById(rootView, id);
+      if (textView3 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView50;
+      TextView textView50 = ViewBindings.findChildViewById(rootView, id);
+      if (textView50 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView51;
+      TextView textView51 = ViewBindings.findChildViewById(rootView, id);
+      if (textView51 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView70;
+      TextView textView70 = ViewBindings.findChildViewById(rootView, id);
+      if (textView70 == null) {
+        break missingId;
+      }
+
       return new FragmentHomeBinding((ConstraintLayout) rootView, imageButton2, imageButton3,
-          imageButton4, imageView7);
+          imageButton4, imageView7, textView3, textView50, textView51, textView70);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -4,10 +4,12 @@ package com.example.stoplyingdown.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
-import android.widget.FrameLayout;
+import android.widget.ImageView;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.widget.AppCompatButton;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.stoplyingdown.R;
@@ -17,19 +19,63 @@ import java.lang.String;
 
 public final class FragmentProfileBinding implements ViewBinding {
   @NonNull
-  private final FrameLayout rootView;
+  private final ConstraintLayout rootView;
 
   @NonNull
-  public final Button button2;
+  public final AppCompatButton button;
 
-  private FragmentProfileBinding(@NonNull FrameLayout rootView, @NonNull Button button2) {
+  @NonNull
+  public final ImageView imageView10;
+
+  @NonNull
+  public final ImageView imageView13;
+
+  @NonNull
+  public final TextView textView13;
+
+  @NonNull
+  public final TextView textView19;
+
+  @NonNull
+  public final TextView textView20;
+
+  @NonNull
+  public final TextView textView21;
+
+  @NonNull
+  public final TextView textView22;
+
+  @NonNull
+  public final TextView textView23;
+
+  @NonNull
+  public final TextView textView24;
+
+  @NonNull
+  public final TextView textView25;
+
+  private FragmentProfileBinding(@NonNull ConstraintLayout rootView,
+      @NonNull AppCompatButton button, @NonNull ImageView imageView10,
+      @NonNull ImageView imageView13, @NonNull TextView textView13, @NonNull TextView textView19,
+      @NonNull TextView textView20, @NonNull TextView textView21, @NonNull TextView textView22,
+      @NonNull TextView textView23, @NonNull TextView textView24, @NonNull TextView textView25) {
     this.rootView = rootView;
-    this.button2 = button2;
+    this.button = button;
+    this.imageView10 = imageView10;
+    this.imageView13 = imageView13;
+    this.textView13 = textView13;
+    this.textView19 = textView19;
+    this.textView20 = textView20;
+    this.textView21 = textView21;
+    this.textView22 = textView22;
+    this.textView23 = textView23;
+    this.textView24 = textView24;
+    this.textView25 = textView25;
   }
 
   @Override
   @NonNull
-  public FrameLayout getRoot() {
+  public ConstraintLayout getRoot() {
     return rootView;
   }
 
@@ -54,13 +100,75 @@ public final class FragmentProfileBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.button2;
-      Button button2 = ViewBindings.findChildViewById(rootView, id);
-      if (button2 == null) {
+      id = R.id.button;
+      AppCompatButton button = ViewBindings.findChildViewById(rootView, id);
+      if (button == null) {
         break missingId;
       }
 
-      return new FragmentProfileBinding((FrameLayout) rootView, button2);
+      id = R.id.imageView10;
+      ImageView imageView10 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView10 == null) {
+        break missingId;
+      }
+
+      id = R.id.imageView13;
+      ImageView imageView13 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView13 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView13;
+      TextView textView13 = ViewBindings.findChildViewById(rootView, id);
+      if (textView13 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView19;
+      TextView textView19 = ViewBindings.findChildViewById(rootView, id);
+      if (textView19 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView20;
+      TextView textView20 = ViewBindings.findChildViewById(rootView, id);
+      if (textView20 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView21;
+      TextView textView21 = ViewBindings.findChildViewById(rootView, id);
+      if (textView21 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView22;
+      TextView textView22 = ViewBindings.findChildViewById(rootView, id);
+      if (textView22 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView23;
+      TextView textView23 = ViewBindings.findChildViewById(rootView, id);
+      if (textView23 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView24;
+      TextView textView24 = ViewBindings.findChildViewById(rootView, id);
+      if (textView24 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView25;
+      TextView textView25 = ViewBindings.findChildViewById(rootView, id);
+      if (textView25 == null) {
+        break missingId;
+      }
+
+      return new FragmentProfileBinding((ConstraintLayout) rootView, button, imageView10,
+          imageView13, textView13, textView19, textView20, textView21, textView22, textView23,
+          textView24, textView25);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

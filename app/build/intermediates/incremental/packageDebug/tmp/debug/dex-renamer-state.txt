@@ -1,14 +1,14 @@
-#Mon Apr 24 18:57:19 YEKT 2023
+#Tue Apr 25 17:36:04 YEKT 2023
 path.4=9/classes.dex
 path.3=14/classes.dex
 path.2=11/classes.dex
 path.1=0/classes.dex
 path.0=classes.dex
-base.4=/Users/daniil/AndroidStudioProjects/SLD/app/build/intermediates/dex/debug/mergeProjectDexDebug/9/classes.dex
-base.3=/Users/daniil/AndroidStudioProjects/SLD/app/build/intermediates/dex/debug/mergeProjectDexDebug/14/classes.dex
-base.2=/Users/daniil/AndroidStudioProjects/SLD/app/build/intermediates/dex/debug/mergeProjectDexDebug/11/classes.dex
-base.1=/Users/daniil/AndroidStudioProjects/SLD/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
-base.0=/Users/daniil/AndroidStudioProjects/SLD/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
+base.4=C\:\\Users\\pc\\Desktop\\SLD\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\9\\classes.dex
+base.3=C\:\\Users\\pc\\Desktop\\SLD\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\14\\classes.dex
+base.2=C\:\\Users\\pc\\Desktop\\SLD\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\11\\classes.dex
+base.1=C\:\\Users\\pc\\Desktop\\SLD\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.0=C\:\\Users\\pc\\Desktop\\SLD\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 renamed.3=classes4.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex

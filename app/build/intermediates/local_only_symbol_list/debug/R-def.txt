@@ -61,11 +61,9 @@ drawable profile
 drawable profile111
 drawable receive
 drawable send
-drawable thumb
 drawable top_backgroundpr
 drawable top_button_backgroung
 drawable top_button_backgroung2
-drawable track
 drawable trox
 drawable white_background
 drawable women

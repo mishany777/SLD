@@ -28,7 +28,7 @@ public class SexPage extends AppCompatActivity {
         male_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                SetSex("male", sPref);
+                SetSex("мужской", sPref);
                 NextPage(view);
             }
         });
@@ -36,7 +36,7 @@ public class SexPage extends AppCompatActivity {
         female_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                SetSex("female", sPref);
+                SetSex("женский", sPref);
                 NextPage(view);
             }
         });

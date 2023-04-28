@@ -25,6 +25,15 @@ public final class FragmentProfileBinding implements ViewBinding {
   public final AppCompatButton editButton;
 
   @NonNull
+  public final ImageView editButtonHeight;
+
+  @NonNull
+  public final ImageView editButtonUsername;
+
+  @NonNull
+  public final ImageView editButtonWeight;
+
+  @NonNull
   public final TextView heightNumber;
 
   @NonNull
@@ -37,39 +46,40 @@ public final class FragmentProfileBinding implements ViewBinding {
   public final TextView sexNumber;
 
   @NonNull
-  public final TextView textView13;
-
-  @NonNull
   public final TextView textView19;
 
   @NonNull
   public final TextView textView20;
 
   @NonNull
-  public final TextView textView21;
+  public final TextView textView24;
 
   @NonNull
-  public final TextView textView24;
+  public final TextView usernameField;
 
   @NonNull
   public final TextView weightNumber;
 
   private FragmentProfileBinding(@NonNull ConstraintLayout rootView,
-      @NonNull AppCompatButton editButton, @NonNull TextView heightNumber,
-      @NonNull ImageView imageView10, @NonNull ImageView imageView13, @NonNull TextView sexNumber,
-      @NonNull TextView textView13, @NonNull TextView textView19, @NonNull TextView textView20,
-      @NonNull TextView textView21, @NonNull TextView textView24, @NonNull TextView weightNumber) {
+      @NonNull AppCompatButton editButton, @NonNull ImageView editButtonHeight,
+      @NonNull ImageView editButtonUsername, @NonNull ImageView editButtonWeight,
+      @NonNull TextView heightNumber, @NonNull ImageView imageView10,
+      @NonNull ImageView imageView13, @NonNull TextView sexNumber, @NonNull TextView textView19,
+      @NonNull TextView textView20, @NonNull TextView textView24, @NonNull TextView usernameField,
+      @NonNull TextView weightNumber) {
     this.rootView = rootView;
     this.editButton = editButton;
+    this.editButtonHeight = editButtonHeight;
+    this.editButtonUsername = editButtonUsername;
+    this.editButtonWeight = editButtonWeight;
     this.heightNumber = heightNumber;
     this.imageView10 = imageView10;
     this.imageView13 = imageView13;
     this.sexNumber = sexNumber;
-    this.textView13 = textView13;
     this.textView19 = textView19;
     this.textView20 = textView20;
-    this.textView21 = textView21;
     this.textView24 = textView24;
+    this.usernameField = usernameField;
     this.weightNumber = weightNumber;
   }
 
@@ -106,6 +116,24 @@ public final class FragmentProfileBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.edit_button_height;
+      ImageView editButtonHeight = ViewBindings.findChildViewById(rootView, id);
+      if (editButtonHeight == null) {
+        break missingId;
+      }
+
+      id = R.id.edit_button_username;
+      ImageView editButtonUsername = ViewBindings.findChildViewById(rootView, id);
+      if (editButtonUsername == null) {
+        break missingId;
+      }
+
+      id = R.id.edit_button_weight;
+      ImageView editButtonWeight = ViewBindings.findChildViewById(rootView, id);
+      if (editButtonWeight == null) {
+        break missingId;
+      }
+
       id = R.id.height_number;
       TextView heightNumber = ViewBindings.findChildViewById(rootView, id);
       if (heightNumber == null) {
@@ -130,12 +158,6 @@ public final class FragmentProfileBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.textView13;
-      TextView textView13 = ViewBindings.findChildViewById(rootView, id);
-      if (textView13 == null) {
-        break missingId;
-      }
-
       id = R.id.textView19;
       TextView textView19 = ViewBindings.findChildViewById(rootView, id);
       if (textView19 == null) {
@@ -148,15 +170,15 @@ public final class FragmentProfileBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.textView21;
-      TextView textView21 = ViewBindings.findChildViewById(rootView, id);
-      if (textView21 == null) {
-        break missingId;
-      }
-
       id = R.id.textView24;
       TextView textView24 = ViewBindings.findChildViewById(rootView, id);
       if (textView24 == null) {
+        break missingId;
+      }
+
+      id = R.id.usernameField;
+      TextView usernameField = ViewBindings.findChildViewById(rootView, id);
+      if (usernameField == null) {
         break missingId;
       }
 
@@ -166,9 +188,9 @@ public final class FragmentProfileBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentProfileBinding((ConstraintLayout) rootView, editButton, heightNumber,
-          imageView10, imageView13, sexNumber, textView13, textView19, textView20, textView21,
-          textView24, weightNumber);
+      return new FragmentProfileBinding((ConstraintLayout) rootView, editButton, editButtonHeight,
+          editButtonUsername, editButtonWeight, heightNumber, imageView10, imageView13, sexNumber,
+          textView19, textView20, textView24, usernameField, weightNumber);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

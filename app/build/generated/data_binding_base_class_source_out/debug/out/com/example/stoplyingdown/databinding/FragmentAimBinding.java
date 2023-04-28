@@ -21,22 +21,22 @@ public final class FragmentAimBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final SwitchCompat switch10;
+  public final SwitchCompat active;
 
   @NonNull
-  public final SwitchCompat switch12;
+  public final SwitchCompat hightActive;
 
   @NonNull
-  public final SwitchCompat switch2;
+  public final SwitchCompat keep;
 
   @NonNull
-  public final SwitchCompat switch6;
+  public final SwitchCompat lose;
 
   @NonNull
-  public final SwitchCompat switch8;
+  public final SwitchCompat more;
 
   @NonNull
-  public final SwitchCompat switch9;
+  public final SwitchCompat standUp;
 
   @NonNull
   public final TextView textView15;
@@ -71,20 +71,20 @@ public final class FragmentAimBinding implements ViewBinding {
   @NonNull
   public final TextView textView31;
 
-  private FragmentAimBinding(@NonNull ConstraintLayout rootView, @NonNull SwitchCompat switch10,
-      @NonNull SwitchCompat switch12, @NonNull SwitchCompat switch2, @NonNull SwitchCompat switch6,
-      @NonNull SwitchCompat switch8, @NonNull SwitchCompat switch9, @NonNull TextView textView15,
+  private FragmentAimBinding(@NonNull ConstraintLayout rootView, @NonNull SwitchCompat active,
+      @NonNull SwitchCompat hightActive, @NonNull SwitchCompat keep, @NonNull SwitchCompat lose,
+      @NonNull SwitchCompat more, @NonNull SwitchCompat standUp, @NonNull TextView textView15,
       @NonNull TextView textView16, @NonNull TextView textView17, @NonNull TextView textView18,
       @NonNull TextView textView22, @NonNull TextView textView25, @NonNull TextView textView26,
       @NonNull TextView textView28, @NonNull TextView textView29, @NonNull TextView textView30,
       @NonNull TextView textView31) {
     this.rootView = rootView;
-    this.switch10 = switch10;
-    this.switch12 = switch12;
-    this.switch2 = switch2;
-    this.switch6 = switch6;
-    this.switch8 = switch8;
-    this.switch9 = switch9;
+    this.active = active;
+    this.hightActive = hightActive;
+    this.keep = keep;
+    this.lose = lose;
+    this.more = more;
+    this.standUp = standUp;
     this.textView15 = textView15;
     this.textView16 = textView16;
     this.textView17 = textView17;
@@ -125,39 +125,39 @@ public final class FragmentAimBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.switch10;
-      SwitchCompat switch10 = ViewBindings.findChildViewById(rootView, id);
-      if (switch10 == null) {
+      id = R.id.active;
+      SwitchCompat active = ViewBindings.findChildViewById(rootView, id);
+      if (active == null) {
         break missingId;
       }
 
-      id = R.id.switch12;
-      SwitchCompat switch12 = ViewBindings.findChildViewById(rootView, id);
-      if (switch12 == null) {
+      id = R.id.hightActive;
+      SwitchCompat hightActive = ViewBindings.findChildViewById(rootView, id);
+      if (hightActive == null) {
         break missingId;
       }
 
-      id = R.id.switch2;
-      SwitchCompat switch2 = ViewBindings.findChildViewById(rootView, id);
-      if (switch2 == null) {
+      id = R.id.keep;
+      SwitchCompat keep = ViewBindings.findChildViewById(rootView, id);
+      if (keep == null) {
         break missingId;
       }
 
-      id = R.id.switch6;
-      SwitchCompat switch6 = ViewBindings.findChildViewById(rootView, id);
-      if (switch6 == null) {
+      id = R.id.lose;
+      SwitchCompat lose = ViewBindings.findChildViewById(rootView, id);
+      if (lose == null) {
         break missingId;
       }
 
-      id = R.id.switch8;
-      SwitchCompat switch8 = ViewBindings.findChildViewById(rootView, id);
-      if (switch8 == null) {
+      id = R.id.more;
+      SwitchCompat more = ViewBindings.findChildViewById(rootView, id);
+      if (more == null) {
         break missingId;
       }
 
-      id = R.id.switch9;
-      SwitchCompat switch9 = ViewBindings.findChildViewById(rootView, id);
-      if (switch9 == null) {
+      id = R.id.stand_up;
+      SwitchCompat standUp = ViewBindings.findChildViewById(rootView, id);
+      if (standUp == null) {
         break missingId;
       }
 
@@ -227,9 +227,9 @@ public final class FragmentAimBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentAimBinding((ConstraintLayout) rootView, switch10, switch12, switch2,
-          switch6, switch8, switch9, textView15, textView16, textView17, textView18, textView22,
-          textView25, textView26, textView28, textView29, textView30, textView31);
+      return new FragmentAimBinding((ConstraintLayout) rootView, active, hightActive, keep, lose,
+          more, standUp, textView15, textView16, textView17, textView18, textView22, textView25,
+          textView26, textView28, textView29, textView30, textView31);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

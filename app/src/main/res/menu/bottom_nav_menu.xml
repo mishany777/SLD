@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item android:title="Home"
+    <item android:title="Главная"
         android:icon="@drawable/baseline_home"
         android:id="@+id/home_fragment"/>
-    <item android:title="Aim"
+    <item android:title="Цели"
         android:icon="@drawable/baseline_aim"
         android:id="@+id/aim_fragment"/>
-    <item android:title="Pofile"
+    <item android:title="Профиль"
         android:icon="@drawable/baseline_profile"
         android:id="@+id/profile_fragment"/>
 </menu>

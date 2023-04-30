@@ -14,6 +14,9 @@ color main_button
 color main_color
 color main_mak
 color men_color
+color pg_1
+color pg_4
+color pg_5
 color purple_200
 color purple_500
 color purple_700
@@ -56,10 +59,13 @@ drawable intro_button
 drawable main_button_bakcground
 drawable man
 drawable manwom
+drawable minus
 drawable pencil
+drawable plus
 drawable profal
 drawable profile
 drawable profile111
+drawable progress_bar_style
 drawable receive
 drawable send
 drawable thumb
@@ -68,12 +74,14 @@ drawable top_button_backgroung
 drawable top_button_backgroung2
 drawable track
 drawable trox
+drawable water_glass
 drawable white_background
 drawable women
 font nunitolight
 id active
 id activity_button
 id aim_fragment
+id background
 id bottomNavigationView
 id buttonImageView
 id edit_button
@@ -88,6 +96,9 @@ id heightField
 id height_number
 id hightActive
 id home_fragment
+id imageButton
+id imageButton2
+id imageView
 id imageView10
 id imageView13
 id imageView3
@@ -100,6 +111,7 @@ id more
 id nextPageButtonHeight
 id nextPageButtonLogin
 id profile_fragment
+id progress
 id sex_number
 id sleep_button
 id stand_up
@@ -108,6 +120,7 @@ id textView
 id textView10
 id textView11
 id textView12
+id textView13
 id textView14
 id textView15
 id textView16

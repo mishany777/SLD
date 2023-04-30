@@ -1900,6 +1900,9 @@ color mtrl_textinput_focused_box_stroke_color
 color mtrl_textinput_hovered_box_stroke_color
 color notification_action_color_filter
 color notification_icon_bg_color
+color pg_1
+color pg_4
+color pg_5
 color primary_dark_material_dark
 color primary_dark_material_light
 color primary_material_dark
@@ -2797,6 +2800,7 @@ drawable material_ic_keyboard_arrow_previous_black_24dp
 drawable material_ic_keyboard_arrow_right_black_24dp
 drawable material_ic_menu_arrow_down_black_24dp
 drawable material_ic_menu_arrow_up_black_24dp
+drawable minus
 drawable mtrl_bottomsheet_drag_handle
 drawable mtrl_checkbox_button
 drawable mtrl_checkbox_button_checked_unchecked
@@ -2848,9 +2852,11 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable pencil
+drawable plus
 drawable profal
 drawable profile
 drawable profile111
+drawable progress_bar_style
 drawable receive
 drawable send
 drawable test_level_drawable
@@ -2862,6 +2868,7 @@ drawable top_button_backgroung
 drawable top_button_backgroung2
 drawable track
 drawable trox
+drawable water_glass
 drawable white_background
 drawable women
 font nunitolight
@@ -2955,6 +2962,7 @@ id auto
 id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
+id background
 id barrier
 id baseline
 id beginOnFirstDraw
@@ -3100,6 +3108,9 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageButton
+id imageButton2
+id imageView
 id imageView10
 id imageView13
 id imageView3
@@ -3233,6 +3244,7 @@ id position
 id postLayout
 id pressed
 id profile_fragment
+id progress
 id progress_circular
 id progress_horizontal
 id radio
@@ -3349,6 +3361,7 @@ id textView
 id textView10
 id textView11
 id textView12
+id textView13
 id textView14
 id textView15
 id textView16

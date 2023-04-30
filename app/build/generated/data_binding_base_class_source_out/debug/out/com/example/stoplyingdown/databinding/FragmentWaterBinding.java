@@ -4,6 +4,9 @@ package com.example.stoplyingdown.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageButton;
+import android.widget.ImageView;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -20,11 +23,33 @@ public final class FragmentWaterBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final ImageButton imageButton;
+
+  @NonNull
+  public final ImageButton imageButton2;
+
+  @NonNull
+  public final ImageView imageView;
+
+  @NonNull
+  public final ProgressBar progress;
+
+  @NonNull
   public final TextView textView;
 
-  private FragmentWaterBinding(@NonNull ConstraintLayout rootView, @NonNull TextView textView) {
+  @NonNull
+  public final TextView textView13;
+
+  private FragmentWaterBinding(@NonNull ConstraintLayout rootView, @NonNull ImageButton imageButton,
+      @NonNull ImageButton imageButton2, @NonNull ImageView imageView,
+      @NonNull ProgressBar progress, @NonNull TextView textView, @NonNull TextView textView13) {
     this.rootView = rootView;
+    this.imageButton = imageButton;
+    this.imageButton2 = imageButton2;
+    this.imageView = imageView;
+    this.progress = progress;
     this.textView = textView;
+    this.textView13 = textView13;
   }
 
   @Override
@@ -54,13 +79,44 @@ public final class FragmentWaterBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.imageButton;
+      ImageButton imageButton = ViewBindings.findChildViewById(rootView, id);
+      if (imageButton == null) {
+        break missingId;
+      }
+
+      id = R.id.imageButton2;
+      ImageButton imageButton2 = ViewBindings.findChildViewById(rootView, id);
+      if (imageButton2 == null) {
+        break missingId;
+      }
+
+      id = R.id.imageView;
+      ImageView imageView = ViewBindings.findChildViewById(rootView, id);
+      if (imageView == null) {
+        break missingId;
+      }
+
+      id = R.id.progress;
+      ProgressBar progress = ViewBindings.findChildViewById(rootView, id);
+      if (progress == null) {
+        break missingId;
+      }
+
       id = R.id.textView;
       TextView textView = ViewBindings.findChildViewById(rootView, id);
       if (textView == null) {
         break missingId;
       }
 
-      return new FragmentWaterBinding((ConstraintLayout) rootView, textView);
+      id = R.id.textView13;
+      TextView textView13 = ViewBindings.findChildViewById(rootView, id);
+      if (textView13 == null) {
+        break missingId;
+      }
+
+      return new FragmentWaterBinding((ConstraintLayout) rootView, imageButton, imageButton2,
+          imageView, progress, textView, textView13);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

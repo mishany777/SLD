@@ -13,6 +13,9 @@ import android.widget.ImageButton;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
+
 /**
  * A simple {@link Fragment} subclass.
  * Use the {@link WaterFragment#newInstance} factory method to
@@ -74,6 +77,10 @@ public class WaterFragment extends Fragment {
         View inflatedView = inflater.inflate(R.layout.fragment_water, container, false);
         sPref = getContext().getSharedPreferences(APP_PREFERENCES_NAME, Context.MODE_PRIVATE);
 
+
+
+
+
         ProgressBar progressBar = inflatedView.findViewById(R.id.progress);
         ImageButton plusButton = inflatedView.findViewById(R.id.plusButton);
         ImageButton minusButton = inflatedView.findViewById(R.id.minusButton);
@@ -83,10 +90,20 @@ public class WaterFragment extends Fragment {
         alreadyDrink = sPref.getInt(FIELD_NAME_WATER, 0);
         cupsCounter.setText(alreadyDrink.toString());
 
+        LocalDate date = LocalDate.now();
+        DateTimeFormatter dateFormatter = DateTimeFormatter.ofPattern("dd-MM-yyyy");
+        String datenow = date.format(dateFormatter);
+        String oldDate = sPref.getString("date", "99-99-9999");
+        if (IsFirstMoreSecond(datenow, oldDate)){
+            SetWater(0, sPref);
+            cupsCounter.setText("0");
+            alreadyDrink = 0;
+            progressBar.setProgress(0);
+            SetTime(datenow, sPref);
+        }
+
         Integer weight = (Integer) sPref.getInt(FIELD_NAME_WEIGHT, 1);
         Long needToDrink = Math.round(((weight / 30.0)*1000)/250);
-        System.out.println(needToDrink);
-
 
         progressBar.setMax(Integer.parseInt(needToDrink.toString()));
         progressBar.setProgress(alreadyDrink);
@@ -127,6 +144,29 @@ public class WaterFragment extends Fragment {
             editor.apply();
         }
         editor.putInt(FIELD_NAME_WATER, waterCount);
+        editor.apply();
+    }
+
+    public boolean IsFirstMoreSecond(String date1, String date2){
+        String[] date1_split = date1.split("-");
+        String[] date2_split = date2.split("-");
+
+        if (Integer.parseInt(date2_split[2]) > Integer.parseInt(date1_split[2]))
+            return false;
+
+        if (Integer.parseInt(date2_split[1]) > Integer.parseInt(date1_split[1]))
+            return false;
+
+        return Integer.parseInt(date2_split[0]) < Integer.parseInt(date1_split[0]);
+    }
+
+    public void SetTime(String date, SharedPreferences sPref){
+        SharedPreferences.Editor editor = sPref.edit();
+        if (sPref.contains("date")){
+            editor.remove("date");
+            editor.apply();
+        }
+        editor.putString("date", date);
         editor.apply();
     }
 }

@@ -12,6 +12,9 @@ import android.widget.EditText;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
+
 public class LogInPage extends AppCompatActivity {
     public static final String APP_PREFERENCES_NAME = "userinfo";
     public static final String FIELD_NAME_USERNAME = "username";
@@ -30,6 +33,11 @@ public class LogInPage extends AppCompatActivity {
         EditText height = findViewById(R.id.heightField);
         EditText weight = findViewById(R.id.weightField);
         Button nextPageButton = findViewById(R.id.nextPageButtonLogin);
+
+        LocalDate date = LocalDate.now();
+        DateTimeFormatter dateFormatter = DateTimeFormatter.ofPattern("dd-MM-yyyy");
+        String datenow = date.format(dateFormatter);
+        SetTime(datenow, sPref);
 
         nextPageButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -116,5 +124,15 @@ public class LogInPage extends AppCompatActivity {
             SendAlert();
             return false;
         }
+    }
+
+    public void SetTime(String date, SharedPreferences sPref){
+        SharedPreferences.Editor editor = sPref.edit();
+        if (sPref.contains("date")){
+            editor.remove("date");
+            editor.apply();
+        }
+        editor.putString("date", date);
+        editor.apply();
     }
 }

@@ -3011,6 +3011,7 @@ id coordinator
 id cos
 id counterclockwise
 id cradle
+id cupsCounter
 id currentState
 id custom
 id customPanel
@@ -3108,8 +3109,6 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
-id imageButton
-id imageButton2
 id imageView
 id imageView10
 id imageView13
@@ -3120,6 +3119,7 @@ id immediateStop
 id included
 id indeterminate
 id info
+id infoText
 id invisible
 id inward
 id italic
@@ -3168,6 +3168,7 @@ id matrix
 id message
 id middle
 id mini
+id minusButton
 id month_grid
 id month_navigation_bar
 id month_navigation_fragment_toggle
@@ -3240,6 +3241,7 @@ id pathRelative
 id peekHeight
 id percent
 id pin
+id plusButton
 id position
 id postLayout
 id pressed
@@ -3357,11 +3359,9 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
-id textView
 id textView10
 id textView11
 id textView12
-id textView13
 id textView14
 id textView15
 id textView16

@@ -1,5 +1,7 @@
 package com.example.stoplyingdown;
 
+import android.content.Context;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -7,6 +9,9 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageButton;
+import android.widget.ProgressBar;
+import android.widget.TextView;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -19,6 +24,14 @@ public class WaterFragment extends Fragment {
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_PARAM2 = "param2";
+    private static final String FIELD_NAME_WATER = "water";
+    public static final String APP_PREFERENCES_NAME = "userinfo";
+
+    public static final String FIELD_NAME_WEIGHT = "weight";
+
+    public Integer alreadyDrink;
+
+    private SharedPreferences sPref;
 
     // TODO: Rename and change types of parameters
     private String mParam1;
@@ -58,7 +71,62 @@ public class WaterFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_water, container, false);
+        View inflatedView = inflater.inflate(R.layout.fragment_water, container, false);
+        sPref = getContext().getSharedPreferences(APP_PREFERENCES_NAME, Context.MODE_PRIVATE);
+
+        ProgressBar progressBar = inflatedView.findViewById(R.id.progress);
+        ImageButton plusButton = inflatedView.findViewById(R.id.plusButton);
+        ImageButton minusButton = inflatedView.findViewById(R.id.minusButton);
+        TextView cupsCounter = inflatedView.findViewById(R.id.cupsCounter);
+        TextView infoText = inflatedView.findViewById(R.id.infoText);
+
+        alreadyDrink = sPref.getInt(FIELD_NAME_WATER, 0);
+        cupsCounter.setText(alreadyDrink.toString());
+
+        Integer weight = (Integer) sPref.getInt(FIELD_NAME_WEIGHT, 1);
+        Long needToDrink = Math.round(((weight / 30.0)*1000)/250);
+        System.out.println(needToDrink);
+
+
+        progressBar.setMax(Integer.parseInt(needToDrink.toString()));
+        progressBar.setProgress(alreadyDrink);
+
+        infoText.setText(String.format("Вам надо выпить %d стаканов воды, исходя и расчета 30 кг массы тела – 1 литр воды", needToDrink));
+
+        plusButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                alreadyDrink += 1;
+                SetWater(alreadyDrink, sPref);
+                cupsCounter.setText(alreadyDrink.toString());
+                progressBar.setProgress(alreadyDrink);
+            }
+        });
+
+        minusButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if (alreadyDrink > 0) {
+                    alreadyDrink -= 1;
+                    SetWater(alreadyDrink, sPref);
+                    cupsCounter.setText(alreadyDrink.toString());
+                    progressBar.setProgress(alreadyDrink);
+                }
+            }
+        });
+
+
+
+        return inflatedView;
+    }
+
+    public void SetWater(Integer waterCount, SharedPreferences sPref){
+        SharedPreferences.Editor editor = sPref.edit();
+        if (sPref.contains(FIELD_NAME_WATER)){
+            editor.remove(FIELD_NAME_WATER);
+            editor.apply();
+        }
+        editor.putInt(FIELD_NAME_WATER, waterCount);
+        editor.apply();
     }
 }

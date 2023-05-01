@@ -18,7 +18,7 @@
         app:layout_constraintVertical_bias="0.375" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/plusButton"
         android:layout_width="70dp"
         android:layout_height="70dp"
         android:layout_marginTop="32dp"
@@ -29,7 +29,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <ImageButton
-        android:id="@+id/imageButton2"
+        android:id="@+id/minusButton"
         android:layout_width="70dp"
         android:layout_height="70dp"
         android:layout_marginTop="32dp"
@@ -40,7 +40,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/cupsCounter"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
@@ -50,9 +50,9 @@
         android:textSize="50dp"
         android:textStyle="bold"
 
-        app:layout_constraintEnd_toStartOf="@+id/imageButton"
+        app:layout_constraintEnd_toStartOf="@+id/plusButton"
         app:layout_constraintHorizontal_bias="0.489"
-        app:layout_constraintStart_toEndOf="@+id/imageButton2"
+        app:layout_constraintStart_toEndOf="@+id/minusButton"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <ProgressBar
@@ -62,6 +62,7 @@
         android:layout_height="20dp"
         android:max="10"
         android:progress="0"
+        android:min="0"
         android:progressDrawable="@drawable/progress_bar_style"
 
         app:layout_constraintBottom_toTopOf="@+id/imageView"
@@ -70,18 +71,19 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView13"
+        android:id="@+id/infoText"
         android:layout_width="309dp"
         android:layout_height="0dp"
         android:layout_marginTop="32dp"
         android:fontFamily="@font/nunitolight"
-        android:text="Вам надо выпить 'тут должно быть число стаканов' стаканов воды, исходя и расчета 30 кг массы тела – 1 литр воды"
+        android:text="lorem ipsum"
         android:textColor="#9E9E9E"
         android:textSize="18dp"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="@+id/imageButton"
-        app:layout_constraintStart_toStartOf="@+id/imageButton2"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintEnd_toEndOf="@+id/plusButton"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="@+id/minusButton"
+        app:layout_constraintTop_toBottomOf="@+id/cupsCounter" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

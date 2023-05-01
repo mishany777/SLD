@@ -70,33 +70,49 @@ public class AimFragment extends Fragment {
         hightActiveSwitch.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (activeSwitch.isChecked())
-                    activeSwitch.toggle();
-                if (standUpSwitch.isChecked())
-                    standUpSwitch.toggle();
-                SetType(FIELD_NAME_ACTIVITY, "1", sPref);
+                if (hightActiveSwitch.isChecked()){
+                    if (activeSwitch.isChecked())
+                        activeSwitch.toggle();
+                    if (standUpSwitch.isChecked())
+                        standUpSwitch.toggle();
+                    SetType(FIELD_NAME_ACTIVITY, "1", sPref);
+                }
+                else{
+                    hightActiveSwitch.toggle();
+                }
+
             }
         });
 
         activeSwitch.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (hightActiveSwitch.isChecked())
-                    hightActiveSwitch.toggle();
-                if (standUpSwitch.isChecked())
-                    standUpSwitch.toggle();
-                SetType(FIELD_NAME_ACTIVITY, "2", sPref);
+                if (activeSwitch.isChecked()){
+                    if (hightActiveSwitch.isChecked())
+                        hightActiveSwitch.toggle();
+                    if (standUpSwitch.isChecked())
+                        standUpSwitch.toggle();
+                    SetType(FIELD_NAME_ACTIVITY, "2", sPref);
+                }
+                else{
+                    activeSwitch.toggle();
+                }
             }
         });
 
         standUpSwitch.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (activeSwitch.isChecked())
-                    activeSwitch.toggle();
-                if (hightActiveSwitch.isChecked())
-                    hightActiveSwitch.toggle();
-                SetType(FIELD_NAME_ACTIVITY,"3", sPref);
+                if (standUpSwitch.isChecked()){
+                    if (activeSwitch.isChecked())
+                        activeSwitch.toggle();
+                    if (hightActiveSwitch.isChecked())
+                        hightActiveSwitch.toggle();
+                    SetType(FIELD_NAME_ACTIVITY,"3", sPref);
+                }
+                else{
+                    standUpSwitch.toggle();
+                }
             }
         });
 
@@ -104,41 +120,62 @@ public class AimFragment extends Fragment {
         SwitchCompat keepSwitch = inflatedView.findViewById(R.id.keep);
         SwitchCompat moreSwitch = inflatedView.findViewById(R.id.more);
 
+        Integer massValue = sPref.getInt(FIELD_NAME_MASS, 1);
+
         SwitchCompat[] MassSwitches = new SwitchCompat[3];
         MassSwitches[0]= loseSwitch;
         MassSwitches[1]= keepSwitch;
         MassSwitches[2]= moreSwitch;
 
+        MassSwitches[massValue - 1].toggle();
+
         loseSwitch.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (keepSwitch.isChecked())
-                    keepSwitch.toggle();
-                if (moreSwitch.isChecked())
-                    moreSwitch.toggle();
-                SetType(FIELD_NAME_MASS, "1", sPref);
+                if (loseSwitch.isChecked()){
+                    if (keepSwitch.isChecked())
+                        keepSwitch.toggle();
+                    if (moreSwitch.isChecked())
+                        moreSwitch.toggle();
+                    SetType(FIELD_NAME_MASS, "1", sPref);
+                }
+                else {
+                    loseSwitch.toggle();
+                }
+
             }
         });
 
         keepSwitch.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (loseSwitch.isChecked())
-                    loseSwitch.toggle();
-                if (moreSwitch.isChecked())
-                    moreSwitch.toggle();
-                SetType(FIELD_NAME_MASS, "2", sPref);
+                if (keepSwitch.isChecked()){
+                    if (loseSwitch.isChecked())
+                        loseSwitch.toggle();
+                    if (moreSwitch.isChecked())
+                        moreSwitch.toggle();
+                    SetType(FIELD_NAME_MASS, "2", sPref);
+                }
+                else{
+                    keepSwitch.toggle();
+                }
+
             }
         });
 
         moreSwitch.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (loseSwitch.isChecked())
-                    loseSwitch.toggle();
-                if (keepSwitch.isChecked())
-                    keepSwitch.toggle();
-                SetType(FIELD_NAME_MASS, "3", sPref);
+                if (moreSwitch.isChecked()){
+                    if (loseSwitch.isChecked())
+                        loseSwitch.toggle();
+                    if (keepSwitch.isChecked())
+                        keepSwitch.toggle();
+                    SetType(FIELD_NAME_MASS, "3", sPref);
+                }
+                else{
+                    moreSwitch.toggle();
+                }
             }
         });
 

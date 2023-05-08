@@ -4,6 +4,7 @@ package com.example.stoplyingdown.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -20,10 +21,58 @@ public final class FragmentSleepBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final ImageView imageView2;
+
+  @NonNull
+  public final ImageView imageView6;
+
+  @NonNull
+  public final TextView textView;
+
+  @NonNull
+  public final TextView textView13;
+
+  @NonNull
+  public final TextView textView21;
+
+  @NonNull
+  public final TextView textView23;
+
+  @NonNull
+  public final TextView textView27;
+
+  @NonNull
+  public final TextView textView32;
+
+  @NonNull
+  public final TextView textView33;
+
+  @NonNull
+  public final TextView textView34;
+
+  @NonNull
+  public final TextView textView35;
+
+  @NonNull
   public final TextView textView4;
 
-  private FragmentSleepBinding(@NonNull ConstraintLayout rootView, @NonNull TextView textView4) {
+  private FragmentSleepBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView imageView2,
+      @NonNull ImageView imageView6, @NonNull TextView textView, @NonNull TextView textView13,
+      @NonNull TextView textView21, @NonNull TextView textView23, @NonNull TextView textView27,
+      @NonNull TextView textView32, @NonNull TextView textView33, @NonNull TextView textView34,
+      @NonNull TextView textView35, @NonNull TextView textView4) {
     this.rootView = rootView;
+    this.imageView2 = imageView2;
+    this.imageView6 = imageView6;
+    this.textView = textView;
+    this.textView13 = textView13;
+    this.textView21 = textView21;
+    this.textView23 = textView23;
+    this.textView27 = textView27;
+    this.textView32 = textView32;
+    this.textView33 = textView33;
+    this.textView34 = textView34;
+    this.textView35 = textView35;
     this.textView4 = textView4;
   }
 
@@ -54,13 +103,81 @@ public final class FragmentSleepBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.imageView2;
+      ImageView imageView2 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView2 == null) {
+        break missingId;
+      }
+
+      id = R.id.imageView6;
+      ImageView imageView6 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView6 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView;
+      TextView textView = ViewBindings.findChildViewById(rootView, id);
+      if (textView == null) {
+        break missingId;
+      }
+
+      id = R.id.textView13;
+      TextView textView13 = ViewBindings.findChildViewById(rootView, id);
+      if (textView13 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView21;
+      TextView textView21 = ViewBindings.findChildViewById(rootView, id);
+      if (textView21 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView23;
+      TextView textView23 = ViewBindings.findChildViewById(rootView, id);
+      if (textView23 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView27;
+      TextView textView27 = ViewBindings.findChildViewById(rootView, id);
+      if (textView27 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView32;
+      TextView textView32 = ViewBindings.findChildViewById(rootView, id);
+      if (textView32 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView33;
+      TextView textView33 = ViewBindings.findChildViewById(rootView, id);
+      if (textView33 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView34;
+      TextView textView34 = ViewBindings.findChildViewById(rootView, id);
+      if (textView34 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView35;
+      TextView textView35 = ViewBindings.findChildViewById(rootView, id);
+      if (textView35 == null) {
+        break missingId;
+      }
+
       id = R.id.textView4;
       TextView textView4 = ViewBindings.findChildViewById(rootView, id);
       if (textView4 == null) {
         break missingId;
       }
 
-      return new FragmentSleepBinding((ConstraintLayout) rootView, textView4);
+      return new FragmentSleepBinding((ConstraintLayout) rootView, imageView2, imageView6, textView,
+          textView13, textView21, textView23, textView27, textView32, textView33, textView34,
+          textView35, textView4);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

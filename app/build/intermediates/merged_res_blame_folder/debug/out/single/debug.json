@@ -1,642 +1,650 @@
 [
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable_man.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable\\man.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-ldpi_profile.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-ldpi/profile.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable_women.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable\\women.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-mdpi_bitcoin.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-mdpi/bitcoin.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\layout_fragment_aim.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\layout\\fragment_aim.xml"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-ldpi_intro_button.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-ldpi/intro_button.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-hdpi_buy.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-hdpi\\buy.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable_women.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable/women.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\layout\\activity_main.xml"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable_man.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable/man.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-xxxhdpi_credit.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-xxxhdpi/credit.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable_baseline_profile.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable\\baseline_profile.xml"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-mdpi_bottom_btn1.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-mdpi/bottom_btn1.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-hdpi_credit.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-hdpi\\credit.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable_top_button_backgroung2.xml.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable/top_button_backgroung2.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-xhdpi_bottom_btn4.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-xhdpi\\bottom_btn4.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-xxxhdpi_add.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-xxxhdpi/add.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-xxxhdpi_credit.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-xxxhdpi\\credit.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable_pencil.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable/pencil.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-hdpi_receive.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-hdpi\\receive.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-mdpi_buy.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-mdpi/buy.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-hdpi_profile.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-hdpi\\profile.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable_baseline_aim.xml.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable/baseline_aim.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-xxxhdpi_bottom_btn2.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-xxxhdpi\\bottom_btn2.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable_button_pol.xml.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable/button_pol.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-xxhdpi_bottom_btn2.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-xxhdpi/bottom_btn2.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-hdpi_bitcoin.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-hdpi\\bitcoin.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable_track.xml.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable/track.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-hdpi_bottom_btn4.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-hdpi\\bottom_btn4.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-mdpi_receive.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-mdpi/receive.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-hdpi_trox.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-hdpi\\trox.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable_button_pol.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable\\button_pol.xml"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-hdpi_credit.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-hdpi/credit.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-xxhdpi_bottom_btn4.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-xxhdpi\\bottom_btn4.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-ldpi_send.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-ldpi/send.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-hdpi_float_icon.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-hdpi\\float_icon.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-ldpi_bitcoin.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-ldpi/bitcoin.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-hdpi_profal.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-hdpi\\profal.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-mdpi_bottom_btn2.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-mdpi/bottom_btn2.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-xhdpi_send.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-xhdpi\\send.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-hdpi_dark_mode.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-hdpi/dark_mode.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-hdpi_top_backgroundpr.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-hdpi\\top_backgroundpr.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-hdpi_circle_top_splash.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-hdpi/circle_top_splash.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-xxhdpi_circle_top_splash.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-xxhdpi\\circle_top_splash.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-mdpi_float_icon.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-mdpi/float_icon.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\layout_hi_page.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\layout\\hi_page.xml"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-xhdpi_circle_top_splash.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-xhdpi\\circle_top_splash.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-hdpi_glass_of_water.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-hdpi/glass_of_water.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-xxhdpi_float_icon.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-xxhdpi\\float_icon.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-mdpi_send.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-mdpi/send.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-xxxhdpi_add.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-xxxhdpi\\add.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-hdpi_float_icon.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-hdpi/float_icon.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\mipmap-anydpi-v33_ic_launcher.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\mipmap-anydpi-v33\\ic_launcher.xml"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-hdpi_manwom.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-hdpi/manwom.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-mdpi_send.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-mdpi\\send.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-xxhdpi_send.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-xxhdpi/send.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-mdpi_float_icon.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-mdpi\\float_icon.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/layout_fragment_activities.xml.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/layout/fragment_activities.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-xxxhdpi_trox.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-xxxhdpi\\trox.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-mdpi_intro_button.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-mdpi\\intro_button.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/mipmap-anydpi-v33_ic_launcher.xml.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/mipmap-anydpi-v33/ic_launcher.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-xxxhdpi_ethereum.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-xxxhdpi\\ethereum.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-xxxhdpi_ethereum.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-xxxhdpi/ethereum.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable_white_background.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable\\white_background.xml"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/layout_height_page.xml.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/layout/height_page.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-ldpi_trox.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-ldpi\\trox.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-hdpi_water_glass.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-hdpi/water_glass.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-ldpi_buy.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-ldpi\\buy.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-ldpi_receive.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-ldpi/receive.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-xhdpi_float_icon.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-xhdpi\\float_icon.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-xxxhdpi_bottom_btn3.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-xxxhdpi\\bottom_btn3.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-xxhdpi_bottom_btn1.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-xxhdpi/bottom_btn1.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable_edittext_background.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable\\edittext_background.xml"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-ldpi_credit.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-ldpi/credit.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-hdpi_glass_of_water.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-hdpi\\glass_of_water.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/xml_data_extraction_rules.xml.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/xml/data_extraction_rules.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-xxhdpi_trox.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-xxhdpi/trox.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-xxhdpi_buy.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-xxhdpi\\buy.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-xxxhdpi_trox.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-xxxhdpi/trox.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-xxxhdpi_float_icon.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-xxxhdpi\\float_icon.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/layout_fragment_home.xml.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/layout/fragment_home.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-ldpi_circle_top_splash.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-ldpi\\circle_top_splash.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-xxhdpi_bottom_btn3.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-xxhdpi/bottom_btn3.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-mdpi_add.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-mdpi\\add.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/layout_log_in_page.xml.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/layout/log_in_page.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable_progress_bar_style.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable\\progress_bar_style.xml"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-xhdpi_profile.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-xhdpi/profile.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-mdpi_buy.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-mdpi\\buy.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-hdpi_ethereum.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-hdpi\\ethereum.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable_main_button_bakcground.xml.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable/main_button_bakcground.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-hdpi_bottom_btn2.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-hdpi\\bottom_btn2.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-hdpi_bottom_btn4.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-hdpi/bottom_btn4.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-xxxhdpi_bitcoin.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-xxxhdpi\\bitcoin.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-xxxhdpi_circle_top_splash.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-xxxhdpi/circle_top_splash.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-xhdpi_add.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-xhdpi\\add.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-ldpi_bottom_btn1.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-ldpi/bottom_btn1.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-mdpi_add.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-mdpi/add.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-hdpi_dark_mode.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-hdpi\\dark_mode.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-mdpi_credit.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-mdpi/credit.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable_bottom_nav_icon_color_selector.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable\\bottom_nav_icon_color_selector.xml"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-xxxhdpi_send.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-xxxhdpi/send.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-xhdpi_ethereum.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-xhdpi\\ethereum.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/layout_activity_main.xml.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/layout/activity_main.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\menu_bottom_nav_menu.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\menu\\bottom_nav_menu.xml"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable_white_background.xml.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable/white_background.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\xml\\data_extraction_rules.xml"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-xxxhdpi_profile.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-xxxhdpi/profile.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-xxxhdpi_buy.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-xxxhdpi\\buy.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-ldpi_trox.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-ldpi/trox.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-ldpi_bottom_btn4.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-ldpi\\bottom_btn4.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable_baseline_profile.xml.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable/baseline_profile.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-mdpi_circle_top_splash.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-mdpi\\circle_top_splash.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-hdpi_minus.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-hdpi/minus.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-xhdpi_bottom_btn1.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-xhdpi/bottom_btn1.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable_track.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable\\track.xml"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable_baseline_home_24.xml.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable/baseline_home_24.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\layout_fragment_profile.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\layout\\fragment_profile.xml"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-xxhdpi_credit.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-xxhdpi/credit.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\layout_fragment_sleep.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\layout\\fragment_sleep.xml"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-xxxhdpi_bottom_btn1.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-xxxhdpi/bottom_btn1.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-mdpi_bottom_btn1.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-mdpi\\bottom_btn1.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-mdpi_bottom_btn4.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-mdpi/bottom_btn4.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-xhdpi_credit.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-xhdpi\\credit.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-xhdpi_bottom_btn4.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-xhdpi/bottom_btn4.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-xhdpi_profile.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-xhdpi\\profile.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-ldpi_bottom_btn4.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-ldpi/bottom_btn4.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-xhdpi_trox.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-xhdpi\\trox.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-xhdpi_ethereum.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-xhdpi/ethereum.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-xxhdpi_send.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-xxhdpi\\send.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/layout_fragment_profile.xml.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/layout/fragment_profile.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-mdpi_bottom_btn4.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-mdpi\\bottom_btn4.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-hdpi_icon_weight_4760791.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-hdpi/icon_weight_4760791.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-xxhdpi_bottom_btn1.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-xxhdpi\\bottom_btn1.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/layout_sex_page.xml.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/layout/sex_page.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable_button_bakcground.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable\\button_bakcground.xml"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-ldpi_ethereum.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-ldpi/ethereum.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-hdpi_minus.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-hdpi\\minus.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-ldpi_float_icon.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-ldpi/float_icon.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-xxhdpi_receive.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-xxhdpi/receive.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-hdpi_profile111.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-hdpi\\profile111.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-xxhdpi_add.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-xxhdpi/add.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-hdpi_bottom_btn1.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-hdpi\\bottom_btn1.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-hdpi_bitcoin.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-hdpi/bitcoin.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-ldpi_ethereum.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-ldpi\\ethereum.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-xxhdpi_profile.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-xxhdpi/profile.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\layout_height_page.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\layout\\height_page.xml"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-mdpi_circle_top_splash.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-mdpi/circle_top_splash.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-xxxhdpi_receive.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-xxxhdpi\\receive.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-xhdpi_add.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-xhdpi/add.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-mdpi_credit.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-mdpi\\credit.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-xhdpi_intro_button.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-xhdpi/intro_button.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-xxhdpi_intro_button.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-xxhdpi\\intro_button.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable_baseline_manage_accounts_24.xml.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable/baseline_manage_accounts_24.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-hdpi_add.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-hdpi\\add.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-xxxhdpi_bottom_btn4.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-xxxhdpi/bottom_btn4.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-hdpi_top_backgroundpr.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-hdpi/top_backgroundpr.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-mdpi_bottom_btn3.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-mdpi\\bottom_btn3.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/menu_bottom_nav_menu.xml.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/menu/bottom_nav_menu.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable_baseline_home_24.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable\\baseline_home_24.xml"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-ldpi_bottom_btn3.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-ldpi/bottom_btn3.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-mdpi_ethereum.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-mdpi\\ethereum.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-xxxhdpi_buy.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-xxxhdpi/buy.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-xxhdpi_credit.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-xxhdpi\\credit.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/xml_backup_rules.xml.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/xml/backup_rules.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-hdpi_circle_top_splash.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-hdpi\\circle_top_splash.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/layout_fragment_sleep.xml.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/layout/fragment_sleep.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-ldpi_receive.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-ldpi\\receive.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-hdpi_bottom_btn2.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-hdpi/bottom_btn2.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-ldpi_bottom_btn1.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-ldpi\\bottom_btn1.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-hdpi_change_icon3.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-hdpi/change_icon3.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable_baseline_home.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable\\baseline_home.xml"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-xhdpi_bottom_btn3.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-xhdpi/bottom_btn3.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-mdpi_profile.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-mdpi\\profile.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-mdpi_bitcoin.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-mdpi\\bitcoin.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-hdpi_receive.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-hdpi/receive.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-xxxhdpi_profile.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-xxxhdpi\\profile.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-xxhdpi_bitcoin.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-xxhdpi/bitcoin.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\layout_log_in_page.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\layout\\log_in_page.xml"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-xxhdpi_ethereum.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-xxhdpi/ethereum.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-xhdpi_bottom_btn1.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-xhdpi\\bottom_btn1.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-xhdpi_float_icon.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-xhdpi/float_icon.png"
+        "merged": "com.example.stoplyingdown.app-merged_res-31:/drawable-hdpi_moon.png.flat",
+        "source": "com.example.stoplyingdown.app-main-33:/drawable-hdpi/moon.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-hdpi_profile.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-hdpi/profile.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-ldpi_credit.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-ldpi\\credit.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-ldpi_buy.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-ldpi/buy.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-hdpi_send.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-hdpi\\send.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-hdpi_bottom_btn1.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-hdpi/bottom_btn1.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-ldpi_bitcoin.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-ldpi\\bitcoin.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-xxhdpi_bottom_btn4.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-xxhdpi/bottom_btn4.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-xxhdpi_bottom_btn2.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-xxhdpi\\bottom_btn2.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-xxxhdpi_bottom_btn3.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-xxxhdpi/bottom_btn3.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\layout_fragment_home.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\layout\\fragment_home.xml"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-xxhdpi_float_icon.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-xxhdpi/float_icon.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-ldpi_intro_button.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-ldpi\\intro_button.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-v24/ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-hdpi_icon_weight_4760791.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-hdpi\\icon_weight_4760791.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-hdpi_add.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-hdpi/add.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-ldpi_bottom_btn2.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-ldpi/bottom_btn2.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-mdpi_receive.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-mdpi\\receive.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-xxhdpi_intro_button.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-xxhdpi/intro_button.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-xxhdpi_receive.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-xxhdpi\\receive.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-mdpi_intro_button.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-mdpi/intro_button.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-xxhdpi_trox.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-xxhdpi\\trox.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-xhdpi_bottom_btn2.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-xhdpi/bottom_btn2.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-xhdpi_bottom_btn2.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-xhdpi\\bottom_btn2.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-hdpi_ethereum.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-hdpi/ethereum.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-xxxhdpi_circle_top_splash.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-xxxhdpi\\circle_top_splash.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable_baseline_manage_accounts_24.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable\\baseline_manage_accounts_24.xml"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-hdpi_heart.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-hdpi/heart.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-xxhdpi_ethereum.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-xxhdpi\\ethereum.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/layout_fragment_water.xml.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/layout/fragment_water.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\layout_fragment_food.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\layout\\fragment_food.xml"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-hdpi_icon_calories.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-hdpi/icon_calories.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-xxhdpi_profile.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-xxhdpi\\profile.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable_baseline_home.xml.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable/baseline_home.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-mdpi_bottom_btn2.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-mdpi\\bottom_btn2.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-hdpi_intro_button.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-hdpi/intro_button.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-ldpi_profile.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-ldpi\\profile.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable_thumb.xml.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable/thumb.xml"
+        "merged": "com.example.stoplyingdown.app-merged_res-31:/layout_fragment_sleep.xml.flat",
+        "source": "com.example.stoplyingdown.app-main-33:/layout/fragment_sleep.xml"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-hdpi_send.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-hdpi/send.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-xxhdpi_bitcoin.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-xxhdpi\\bitcoin.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-xhdpi_trox.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-xhdpi/trox.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable_baseline_aim.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable\\baseline_aim.xml"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-ldpi_add.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-ldpi/add.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable_bottom_nav_icon_color_selector.xml.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable/bottom_nav_icon_color_selector.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\layout_fragment_activities.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\layout\\fragment_activities.xml"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-xxhdpi_circle_top_splash.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-xxhdpi/circle_top_splash.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-ldpi_bottom_btn2.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-ldpi\\bottom_btn2.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-hdpi_profal.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-hdpi/profal.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\font_nunitolight.ttf.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\font\\nunitolight.ttf"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable_progress_bar_style.xml.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable/progress_bar_style.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable_pencil.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable\\pencil.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-mdpi_trox.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-mdpi/trox.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-hdpi_water_glass.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-hdpi\\water_glass.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-xhdpi_send.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-xhdpi/send.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\layout_fragment_water.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\layout\\fragment_water.xml"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/layout_fragment_food.xml.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/layout/fragment_food.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable_thumb.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable\\thumb.xml"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-hdpi_icon_calories.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-hdpi\\icon_calories.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-xxxhdpi_float_icon.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-xxxhdpi/float_icon.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-xhdpi_buy.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-xhdpi\\buy.png"
     },
     {
-        "merged": "com.example.stoplyingdown.app-merged_res-31:/layout_fragment_water.xml.flat",
-        "source": "com.example.stoplyingdown.app-main-33:/layout/fragment_water.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-xhdpi_bottom_btn3.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-xhdpi\\bottom_btn3.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-mdpi_bottom_btn3.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-mdpi/bottom_btn3.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-ldpi_send.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-ldpi\\send.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/font_nunitolight.ttf.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/font/nunitolight.ttf"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/layout_fragment_aim.xml.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/layout/fragment_aim.xml"
+        "merged": "com.example.stoplyingdown.app-merged_res-31:/drawable-hdpi_sun.png.flat",
+        "source": "com.example.stoplyingdown.app-main-33:/drawable-hdpi/sun.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable_top_button_backgroung.xml.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable/top_button_backgroung.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-ldpi_bottom_btn3.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-ldpi\\bottom_btn3.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-ldpi_circle_top_splash.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-ldpi/circle_top_splash.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable_top_button_backgroung.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable\\top_button_backgroung.xml"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-hdpi_trox.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-hdpi/trox.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable_top_button_backgroung2.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable\\top_button_backgroung2.xml"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable_ic_launcher_background.xml.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable/ic_launcher_background.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-ldpi_float_icon.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-ldpi\\float_icon.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-hdpi_buy.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-hdpi/buy.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-hdpi_change_icon3.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-hdpi\\change_icon3.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-xhdpi_bitcoin.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-xhdpi/bitcoin.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-xxxhdpi_bottom_btn2.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-xxxhdpi/bottom_btn2.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-xxxhdpi_send.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-xxxhdpi\\send.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-xhdpi_credit.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-xhdpi/credit.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-xhdpi_circle_top_splash.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-xhdpi/circle_top_splash.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\xml\\backup_rules.xml"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable_edittext_background.xml.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable/edittext_background.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable_main_button_bakcground.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable\\main_button_bakcground.xml"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable_button_bakcground.xml.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable/button_bakcground.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-mdpi_trox.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-mdpi\\trox.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/layout_hi_page.xml.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/layout/hi_page.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-hdpi_intro_button.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-hdpi\\intro_button.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-xhdpi_receive.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-xhdpi/receive.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-ldpi_add.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-ldpi\\add.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-mdpi_profile.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-mdpi/profile.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-xhdpi_receive.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-xhdpi\\receive.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-xhdpi_buy.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-xhdpi/buy.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-xxxhdpi_bottom_btn4.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-xxxhdpi\\bottom_btn4.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-mdpi_ethereum.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-mdpi/ethereum.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\layout_sex_page.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\layout\\sex_page.xml"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-xxxhdpi_bottom_btn1.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-xxxhdpi\\bottom_btn1.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-xxxhdpi_intro_button.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-xxxhdpi/intro_button.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-hdpi_heart.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-hdpi\\heart.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-hdpi_profile111.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-hdpi/profile111.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-hdpi_plus.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-hdpi\\plus.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-hdpi_plus.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-hdpi/plus.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-xxxhdpi_intro_button.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-xxxhdpi\\intro_button.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-xxhdpi_buy.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-xxhdpi/buy.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-xxhdpi_add.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-xxhdpi\\add.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-xxxhdpi_bitcoin.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-xxxhdpi/bitcoin.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-xxhdpi_bottom_btn3.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-xxhdpi\\bottom_btn3.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-xxxhdpi_receive.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-xxxhdpi/receive.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-xhdpi_bitcoin.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-xhdpi\\bitcoin.png"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-hdpi_bottom_btn3.png.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-hdpi/bottom_btn3.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-xhdpi_intro_button.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-xhdpi\\intro_button.png"
+    },
+    {
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-hdpi_bottom_btn3.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-hdpi\\bottom_btn3.png"
+    },
+    {
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-merged_res-31:\\drawable-hdpi_manwom.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\7.5\\com.example.stoplyingdown.app-main-33:\\drawable-hdpi\\manwom.png"
     }
 ]

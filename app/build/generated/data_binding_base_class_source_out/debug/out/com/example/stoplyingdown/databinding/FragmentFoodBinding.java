@@ -4,6 +4,7 @@ package com.example.stoplyingdown.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -20,11 +21,24 @@ public final class FragmentFoodBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final TextView textView12;
+  public final Button button1;
 
-  private FragmentFoodBinding(@NonNull ConstraintLayout rootView, @NonNull TextView textView12) {
+  @NonNull
+  public final Button button2;
+
+  @NonNull
+  public final Button button3;
+
+  @NonNull
+  public final TextView textView36;
+
+  private FragmentFoodBinding(@NonNull ConstraintLayout rootView, @NonNull Button button1,
+      @NonNull Button button2, @NonNull Button button3, @NonNull TextView textView36) {
     this.rootView = rootView;
-    this.textView12 = textView12;
+    this.button1 = button1;
+    this.button2 = button2;
+    this.button3 = button3;
+    this.textView36 = textView36;
   }
 
   @Override
@@ -54,13 +68,32 @@ public final class FragmentFoodBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.textView12;
-      TextView textView12 = ViewBindings.findChildViewById(rootView, id);
-      if (textView12 == null) {
+      id = R.id.button1;
+      Button button1 = ViewBindings.findChildViewById(rootView, id);
+      if (button1 == null) {
         break missingId;
       }
 
-      return new FragmentFoodBinding((ConstraintLayout) rootView, textView12);
+      id = R.id.button2;
+      Button button2 = ViewBindings.findChildViewById(rootView, id);
+      if (button2 == null) {
+        break missingId;
+      }
+
+      id = R.id.button3;
+      Button button3 = ViewBindings.findChildViewById(rootView, id);
+      if (button3 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView36;
+      TextView textView36 = ViewBindings.findChildViewById(rootView, id);
+      if (textView36 == null) {
+        break missingId;
+      }
+
+      return new FragmentFoodBinding((ConstraintLayout) rootView, button1, button2, button3,
+          textView36);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -1,5 +1,12 @@
 package com.example.stoplyingdown;
 
+import android.app.AlertDialog;
+import android.app.Dialog;
+import android.app.TimePickerDialog;
+import android.content.Context;
+import android.content.DialogInterface;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -7,6 +14,14 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.content.SharedPreferences;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.TextView;
+import android.widget.TimePicker;
+
+import java.lang.reflect.Array;
+import java.util.Calendar;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -19,6 +34,11 @@ public class SleepFragment extends Fragment {
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_PARAM2 = "param2";
+    private Dialog dialog;
+    private TextView fellasleep;
+    private TextView wakeup;
+    private SharedPreferences sPref;
+    private SharedPreferences.Editor editor;
 
     // TODO: Rename and change types of parameters
     private String mParam1;
@@ -58,7 +78,77 @@ public class SleepFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_sleep, container, false);
+        View inflatedView = inflater.inflate(R.layout.fragment_sleep, container, false);
+        fellasleep = inflatedView.findViewById(R.id.fallasleep);
+        wakeup = inflatedView.findViewById(R.id.wakeup);
+        sPref = getContext().getSharedPreferences("sleep_time", Context.MODE_PRIVATE);
+        editor  = sPref.edit();
+        UpdateTime(8);
+        dialog = new Dialog(getContext());
+
+        fellasleep.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                showCustomDialog();
+            }
+        });
+
+        wakeup.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+            }
+        });
+        return inflatedView;
+    }
+
+    private void showCustomDialog() {
+        dialog.setContentView(R.layout.sleep_dialog);
+        dialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+        Button cancel = dialog.findViewById(R.id.cancel);
+        Button accept = dialog.findViewById(R.id.accept);
+
+        cancel.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                dialog.cancel();
+            }
+        });
+
+        accept.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                EditText time = dialog.findViewById(R.id.editTextTime2);
+                String timetext = time.getText().toString();
+                String[] array = timetext.split(":");
+                Integer hours = Integer.parseInt(array[0]);
+                Integer minutes = Integer.parseInt(array[1]);
+                System.out.println(hours);
+                System.out.println(minutes);
+                if (hours <= 24 && hours >= 0 && minutes >= 0 && minutes < 60) {
+                    editor.putInt("hours", hours);
+                    editor.putInt("minutes", minutes);
+                    editor.apply();
+                    System.out.println("done");
+                }
+                UpdateTime(8);
+                dialog.cancel();
+            }
+        });
+        dialog.show();
+    }
+
+    private void UpdateTime(Integer needToSleepHours){
+        Integer hours = sPref.getInt("hours", 0);
+        Integer minutes = sPref.getInt("minutes", 0);
+        System.out.println(hours);
+        System.out.println(minutes);
+        System.out.println(sPref.getAll());
+        wakeup.setText((hours.toString().length() == 1 ? "0"+hours.toString() : hours.toString()) + ":" +
+                (minutes.toString().length() == 1 ? "0"+minutes.toString() : minutes.toString()));
+        Integer fell_hours = hours - needToSleepHours;
+        fell_hours = fell_hours < 0 ? 24+fell_hours : fell_hours;
+        fellasleep.setText((fell_hours.toString().length() == 1 ? "0"+fell_hours.toString() : fell_hours.toString()) + ":" +
+                (minutes.toString().length() == 1 ? "0"+minutes.toString() : minutes.toString()));
     }
 }

@@ -2743,6 +2743,7 @@ drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
 drawable button_bakcground
+drawable button_empty
 drawable button_pol
 drawable buy
 drawable change_icon3
@@ -2889,6 +2890,7 @@ id SYM
 id TOP_END
 id TOP_START
 id accelerate
+id accept
 id accessibility_action_clickable_span
 id accessibility_custom_action_0
 id accessibility_custom_action_1
@@ -2964,6 +2966,7 @@ id auto
 id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
+id back_button
 id background
 id barrier
 id baseline
@@ -2977,11 +2980,16 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id button1
+id button2
+id button3
 id buttonImageView
 id buttonPanel
 id cache_measures
 id callMeasure
+id cancel
 id cancel_button
+id card
 id carryVelocity
 id center
 id centerCrop
@@ -3052,6 +3060,7 @@ id easeIn
 id easeInOut
 id easeOut
 id east
+id editTextTime2
 id edit_button
 id edit_button_height
 id edit_button_username
@@ -3067,6 +3076,7 @@ id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
 id fade
+id fallasleep
 id female_button
 id fill
 id fill_horizontal
@@ -3392,7 +3402,8 @@ id textView32
 id textView33
 id textView34
 id textView35
-id textView4
+id textView36
+id textView37
 id textView5
 id textView50
 id textView51
@@ -3442,6 +3453,7 @@ id view_tree_saved_state_registry_owner
 id view_tree_view_model_store_owner
 id visible
 id visible_removing_fragment_view_tag
+id wakeup
 id water_button
 id weightField
 id weight_number
@@ -3579,6 +3591,9 @@ layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout fragment_activities
 layout fragment_aim
+layout fragment_diet1
+layout fragment_diet2
+layout fragment_diet3
 layout fragment_food
 layout fragment_home
 layout fragment_profile
@@ -3648,6 +3663,7 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout sex_page
+layout sleep_dialog
 layout support_simple_spinner_dropdown_item
 menu bottom_nav_menu
 mipmap ic_launcher

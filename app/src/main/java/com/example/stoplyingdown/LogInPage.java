@@ -93,7 +93,7 @@ public class LogInPage extends AppCompatActivity {
         SharedPreferences.Editor editor = sPref.edit();
         Integer weight = Integer.parseInt(weight_string);
 
-        if (weight >= 30 && weight <= 250 && weight != 0) {
+        if (weight >= 19 && weight <= 250 && weight != 0) {
             if (sPref.contains(FIELD_NAME_WEIGHT)){
                 editor.remove(FIELD_NAME_WEIGHT);
                 editor.apply();

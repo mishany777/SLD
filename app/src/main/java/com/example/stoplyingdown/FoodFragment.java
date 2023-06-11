@@ -3,10 +3,13 @@ package com.example.stoplyingdown;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -58,7 +61,41 @@ public class FoodFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_food, container, false);
+        View inflatedView = inflater.inflate(R.layout.fragment_food, container, false);
+        Button diet1 = inflatedView.findViewById(R.id.button1);
+        Button diet2 = inflatedView.findViewById(R.id.button2);
+        Button diet3 = inflatedView.findViewById(R.id.button3);
+
+        diet1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                replaceFragment(new Diet1Fragment());
+            }
+        });
+
+        diet2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                replaceFragment(new Diet2Fragment());
+            }
+        });
+
+        diet3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                replaceFragment(new Diet3Fragment());
+            }
+        });
+
+
+        return inflatedView;
+    }
+
+    private void replaceFragment(Fragment fragment){
+        FragmentManager fragmentManager = getParentFragmentManager();
+        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+
+        fragmentTransaction.replace(R.id.frame_layout, fragment);
+        fragmentTransaction.commit();
     }
 }

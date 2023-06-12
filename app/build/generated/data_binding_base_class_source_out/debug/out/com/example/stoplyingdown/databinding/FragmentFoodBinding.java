@@ -4,10 +4,10 @@ package com.example.stoplyingdown.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.widget.AppCompatButton;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
@@ -21,19 +21,20 @@ public final class FragmentFoodBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final Button button1;
+  public final AppCompatButton button1;
 
   @NonNull
-  public final Button button2;
+  public final AppCompatButton button2;
 
   @NonNull
-  public final Button button3;
+  public final AppCompatButton button3;
 
   @NonNull
   public final TextView textView36;
 
-  private FragmentFoodBinding(@NonNull ConstraintLayout rootView, @NonNull Button button1,
-      @NonNull Button button2, @NonNull Button button3, @NonNull TextView textView36) {
+  private FragmentFoodBinding(@NonNull ConstraintLayout rootView, @NonNull AppCompatButton button1,
+      @NonNull AppCompatButton button2, @NonNull AppCompatButton button3,
+      @NonNull TextView textView36) {
     this.rootView = rootView;
     this.button1 = button1;
     this.button2 = button2;
@@ -69,19 +70,19 @@ public final class FragmentFoodBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.button1;
-      Button button1 = ViewBindings.findChildViewById(rootView, id);
+      AppCompatButton button1 = ViewBindings.findChildViewById(rootView, id);
       if (button1 == null) {
         break missingId;
       }
 
       id = R.id.button2;
-      Button button2 = ViewBindings.findChildViewById(rootView, id);
+      AppCompatButton button2 = ViewBindings.findChildViewById(rootView, id);
       if (button2 == null) {
         break missingId;
       }
 
       id = R.id.button3;
-      Button button3 = ViewBindings.findChildViewById(rootView, id);
+      AppCompatButton button3 = ViewBindings.findChildViewById(rootView, id);
       if (button3 == null) {
         break missingId;
       }

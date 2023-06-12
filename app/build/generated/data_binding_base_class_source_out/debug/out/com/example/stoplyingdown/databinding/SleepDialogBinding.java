@@ -35,17 +35,25 @@ public final class SleepDialogBinding implements ViewBinding {
   public final EditText editTextTime2;
 
   @NonNull
+  public final EditText needToSleep;
+
+  @NonNull
   public final TextView textView37;
+
+  @NonNull
+  public final TextView textView4;
 
   private SleepDialogBinding(@NonNull ConstraintLayout rootView, @NonNull AppCompatButton accept,
       @NonNull AppCompatButton cancel, @NonNull CardView card, @NonNull EditText editTextTime2,
-      @NonNull TextView textView37) {
+      @NonNull EditText needToSleep, @NonNull TextView textView37, @NonNull TextView textView4) {
     this.rootView = rootView;
     this.accept = accept;
     this.cancel = cancel;
     this.card = card;
     this.editTextTime2 = editTextTime2;
+    this.needToSleep = needToSleep;
     this.textView37 = textView37;
+    this.textView4 = textView4;
   }
 
   @Override
@@ -99,14 +107,26 @@ public final class SleepDialogBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.needToSleep;
+      EditText needToSleep = ViewBindings.findChildViewById(rootView, id);
+      if (needToSleep == null) {
+        break missingId;
+      }
+
       id = R.id.textView37;
       TextView textView37 = ViewBindings.findChildViewById(rootView, id);
       if (textView37 == null) {
         break missingId;
       }
 
+      id = R.id.textView4;
+      TextView textView4 = ViewBindings.findChildViewById(rootView, id);
+      if (textView4 == null) {
+        break missingId;
+      }
+
       return new SleepDialogBinding((ConstraintLayout) rootView, accept, cancel, card,
-          editTextTime2, textView37);
+          editTextTime2, needToSleep, textView37, textView4);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

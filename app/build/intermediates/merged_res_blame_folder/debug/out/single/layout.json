@@ -1,11 +1,19 @@
 [
     {
+        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-mergeDebugResources-30:/layout/add_activity_dialog.xml",
+        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/layout/add_activity_dialog.xml"
+    },
+    {
         "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-mergeDebugResources-30:/layout/log_in_page.xml",
         "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/layout/log_in_page.xml"
     },
     {
         "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-mergeDebugResources-30:/layout/fragment_home.xml",
         "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.example.stoplyingdown.app-mergeDebugResources-30:/layout/add_activity_dialog.xml",
+        "source": "com.example.stoplyingdown.app-main-33:/layout/add_activity_dialog.xml"
     },
     {
         "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-mergeDebugResources-30:/layout/activity_main.xml",
@@ -20,10 +28,6 @@
         "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/layout/fragment_diet2.xml"
     },
     {
-        "merged": "com.example.stoplyingdown.app-mergeDebugResources-30:/layout/sleep_dialog.xml",
-        "source": "com.example.stoplyingdown.app-main-33:/layout/sleep_dialog.xml"
-    },
-    {
         "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-mergeDebugResources-30:/layout/height_page.xml",
         "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/layout/height_page.xml"
     },
@@ -34,6 +38,10 @@
     {
         "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-mergeDebugResources-30:/layout/fragment_water.xml",
         "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/layout/fragment_water.xml"
+    },
+    {
+        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-mergeDebugResources-30:/layout/activity_card.xml",
+        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/layout/activity_card.xml"
     },
     {
         "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-mergeDebugResources-30:/layout/fragment_diet1.xml",
@@ -60,11 +68,11 @@
         "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/layout/fragment_diet3.xml"
     },
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-mergeDebugResources-30:/layout/fragment_profile.xml",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/layout/fragment_profile.xml"
-    },
-    {
         "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-mergeDebugResources-30:/layout/fragment_sleep.xml",
         "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/layout/fragment_sleep.xml"
+    },
+    {
+        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-mergeDebugResources-30:/layout/fragment_profile.xml",
+        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/layout/fragment_profile.xml"
     }
 ]

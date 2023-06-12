@@ -2729,6 +2729,7 @@ drawable baseline_home_24
 drawable baseline_manage_accounts_24
 drawable baseline_profile
 drawable bitcoin
+drawable black_gradient
 drawable bottom_btn1
 drawable bottom_btn2
 drawable bottom_btn3
@@ -2756,9 +2757,11 @@ drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable edittext_background
+drawable empty_button_card
 drawable ethereum
 drawable float_icon
 drawable glass_of_water
+drawable good_button
 drawable heart
 drawable ic_arrow_back_black_24
 drawable ic_clear_black_24
@@ -2871,6 +2874,7 @@ drawable top_button_backgroung
 drawable top_button_backgroung2
 drawable track
 drawable trox
+drawable walk
 drawable water_glass
 drawable white_background
 drawable women
@@ -2891,6 +2895,7 @@ id TOP_END
 id TOP_START
 id accelerate
 id accept
+id accept_button_activity
 id accessibility_action_clickable_span
 id accessibility_custom_action_0
 id accessibility_custom_action_1
@@ -2947,8 +2952,13 @@ id action_text
 id actions
 id active
 id activity_button
+id activity_card_background
 id activity_chooser_view_content
+id activity_description
+id activity_header
+id activity_name
 id add
+id addActivity
 id aim_fragment
 id alertTitle
 id aligned
@@ -2980,6 +2990,7 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id btn_finish
 id button1
 id button2
 id button3
@@ -2989,6 +3000,7 @@ id cache_measures
 id callMeasure
 id cancel
 id cancel_button
+id cancel_button_activity
 id card
 id carryVelocity
 id center
@@ -3026,6 +3038,7 @@ id currentState
 id custom
 id customPanel
 id cut
+id darkmode
 id dataBinding
 id date_picker_actions
 id decelerate
@@ -3034,6 +3047,7 @@ id decor_content_parent
 id default_activity_button
 id deltaRelative
 id dependency_ordering
+id description
 id design_bottom_sheet
 id design_menu_item_action_area
 id design_menu_item_action_area_stub
@@ -3222,6 +3236,7 @@ id navigation_bar_item_labels_group
 id navigation_bar_item_large_label_view
 id navigation_bar_item_small_label_view
 id navigation_header_container
+id needToSleep
 id never
 id neverCompleteToEnd
 id neverCompleteToStart
@@ -3273,6 +3288,7 @@ id right_icon
 id right_side
 id rounded
 id row_index_key
+id rv_list
 id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
@@ -3404,6 +3420,7 @@ id textView34
 id textView35
 id textView36
 id textView37
+id textView4
 id textView5
 id textView50
 id textView51
@@ -3572,7 +3589,9 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_card
 layout activity_main
+layout add_activity_dialog
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog

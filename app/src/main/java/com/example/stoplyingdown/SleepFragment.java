@@ -83,7 +83,7 @@ public class SleepFragment extends Fragment {
         wakeup = inflatedView.findViewById(R.id.wakeup);
         sPref = getContext().getSharedPreferences("sleep_time", Context.MODE_PRIVATE);
         editor  = sPref.edit();
-        UpdateTime(8);
+        UpdateTime(sPref.getInt("hours_sleep", 0), sPref.getInt("minutes_sleep", 0));
         dialog = new Dialog(getContext());
 
         fellasleep.setOnClickListener(new View.OnClickListener() {
@@ -96,7 +96,7 @@ public class SleepFragment extends Fragment {
         wakeup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                showCustomDialog();
             }
         });
         return inflatedView;
@@ -119,26 +119,40 @@ public class SleepFragment extends Fragment {
             @Override
             public void onClick(View view) {
                 EditText time = dialog.findViewById(R.id.editTextTime2);
+                EditText needToSleep = dialog.findViewById(R.id.needToSleep);
                 String timetext = time.getText().toString();
+                String needToSleepText = needToSleep.getText().toString();
+                if (!timetext.contains(":"))
+                    return;
                 String[] array = timetext.split(":");
                 Integer hours = Integer.parseInt(array[0]);
                 Integer minutes = Integer.parseInt(array[1]);
+
+                if (!needToSleepText.contains(":"))
+                    return;
+                String[] array_sleep = needToSleepText.split(":");
+                Integer hours_sleep = Integer.parseInt(array_sleep[0]);
+                Integer minutes_sleep = Integer.parseInt(array_sleep[1]);
+
                 System.out.println(hours);
                 System.out.println(minutes);
-                if (hours <= 24 && hours >= 0 && minutes >= 0 && minutes < 60) {
+                if ((hours <= 24 && hours >= 0 && minutes >= 0 && minutes < 60) &&
+                        (hours_sleep <= 24 && hours_sleep >= 0 && minutes_sleep >= 0 && minutes_sleep < 60)) {
                     editor.putInt("hours", hours);
                     editor.putInt("minutes", minutes);
+                    editor.putInt("hours_sleep", hours_sleep);
+                    editor.putInt("minutes_sleep", minutes_sleep);
                     editor.apply();
                     System.out.println("done");
                 }
-                UpdateTime(8);
+                UpdateTime(hours_sleep, minutes_sleep);
                 dialog.cancel();
             }
         });
         dialog.show();
     }
 
-    private void UpdateTime(Integer needToSleepHours){
+    private void UpdateTime(Integer needToSleepHours, Integer needToSleepMinutes){
         Integer hours = sPref.getInt("hours", 0);
         Integer minutes = sPref.getInt("minutes", 0);
         System.out.println(hours);
@@ -148,7 +162,12 @@ public class SleepFragment extends Fragment {
                 (minutes.toString().length() == 1 ? "0"+minutes.toString() : minutes.toString()));
         Integer fell_hours = hours - needToSleepHours;
         fell_hours = fell_hours < 0 ? 24+fell_hours : fell_hours;
+        Integer fell_minutes = minutes - needToSleepMinutes;
+        if (fell_minutes < 0){
+            fell_hours -= 1;
+        }
+        fell_minutes = fell_minutes < 0 ? 60+fell_minutes : fell_minutes;
         fellasleep.setText((fell_hours.toString().length() == 1 ? "0"+fell_hours.toString() : fell_hours.toString()) + ":" +
-                (minutes.toString().length() == 1 ? "0"+minutes.toString() : minutes.toString()));
+                (fell_minutes.toString().length() == 1 ? "0"+fell_minutes.toString() : fell_minutes.toString()));
     }
 }

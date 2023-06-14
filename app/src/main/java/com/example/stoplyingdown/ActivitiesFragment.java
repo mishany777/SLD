@@ -140,7 +140,8 @@ public class ActivitiesFragment extends Fragment{
         Integer index = sPref.getAll().size();
         editor.putString(Integer.toString(index+1), ActivityString);
         editor.apply();
-        UploadActivities();
+        mlist.add(new item(background, activityTitle, description, isFinished));
+//        UploadActivities();
     }
 
     private void AddActivityDialog(){

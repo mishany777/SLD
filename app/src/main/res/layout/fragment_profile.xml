@@ -131,16 +131,18 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/edit_button"
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="64dp"
         android:text="Редактировать"
-        android:textColor="@color/white"
+        android:maxWidth="380dp"
+        android:textColor="@color/black"
         android:fontFamily="@font/nunitolight"
         android:textSize="20sp"
         android:textStyle="bold"
         android:paddingHorizontal="100dp"
-        android:background="@drawable/top_button_backgroung"
+        android:background="@drawable/button_empty"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -151,6 +153,7 @@
         android:layout_height="15dp"
         android:src="@drawable/pencil"
         android:layout_marginLeft="5dp"
+
         app:layout_constraintBottom_toBottomOf="@+id/height_number"
         app:layout_constraintStart_toEndOf="@+id/height_number"
         app:layout_constraintTop_toTopOf="@+id/height_number" />
@@ -175,7 +178,6 @@
         app:layout_constraintStart_toEndOf="@+id/usernameField"
         app:layout_constraintTop_toTopOf="@+id/usernameField"
         />
-
 
 
 

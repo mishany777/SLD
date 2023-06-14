@@ -1,11 +1,11 @@
 [
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/mipmap-hdpi/ic_launcher_round.webp"
-    },
-    {
         "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-ldpi_profile.png.flat",
         "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-ldpi/profile.png"
+    },
+    {
+        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
         "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/layout_fragment_diet2.xml.flat",
@@ -42,10 +42,6 @@
     {
         "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable_top_button_backgroung2.xml.flat",
         "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable/top_button_backgroung2.xml"
-    },
-    {
-        "merged": "com.example.stoplyingdown.app-merged_res-31:/layout_add_activity_dialog.xml.flat",
-        "source": "com.example.stoplyingdown.app-main-33:/layout/add_activity_dialog.xml"
     },
     {
         "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-xxxhdpi_add.png.flat",
@@ -182,6 +178,10 @@
     {
         "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable_empty_button_card.xml.flat",
         "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable/empty_button_card.xml"
+    },
+    {
+        "merged": "com.example.stoplyingdown.app-merged_res-31:/layout_fragment_diet3.xml.flat",
+        "source": "com.example.stoplyingdown.app-main-33:/layout/fragment_diet3.xml"
     },
     {
         "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-ldpi_credit.png.flat",
@@ -654,6 +654,10 @@
     {
         "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-mdpi_ethereum.png.flat",
         "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-mdpi/ethereum.png"
+    },
+    {
+        "merged": "com.example.stoplyingdown.app-merged_res-31:/layout_fragment_diet2.xml.flat",
+        "source": "com.example.stoplyingdown.app-main-33:/layout/fragment_diet2.xml"
     },
     {
         "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-hdpi_sun.png.flat",

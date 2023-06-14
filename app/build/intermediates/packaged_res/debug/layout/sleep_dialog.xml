@@ -21,6 +21,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:ems="10"
+                android:fontFamily="@font/nunitolight"
                 android:hint="12:00"
                 android:textAlignment="center"
                 android:inputType="time"
@@ -30,8 +31,10 @@
                 app:layout_constraintTop_toBottomOf="@+id/textView37" />
 
             <TextView
+
                 android:id="@+id/textView37"
                 android:layout_width="wrap_content"
+                android:fontFamily="@font/nunitolight"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 android:text="Когда вам нужно проснуться?"
@@ -47,6 +50,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
                 android:layout_marginBottom="20dp"
+                android:fontFamily="@font/nunitolight"
                 android:width="150dp"
                 android:background="@drawable/button_empty"
                 android:text="Отмена"
@@ -59,6 +63,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Ok"
+                android:fontFamily="@font/nunitolight"
                 android:background="@drawable/top_button_backgroung"
                 android:layout_marginBottom="20dp"
                 android:layout_marginRight="20dp"
@@ -74,6 +79,7 @@
                 android:layout_height="wrap_content"
                 android:text="Сколько вам нужно поспать?"
                 android:textSize="18sp"
+                android:fontFamily="@font/nunitolight"
                 android:layout_marginTop="15dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -89,6 +95,7 @@
                 android:inputType="time"
                 android:textAlignment="center"
                 app:layout_constraintEnd_toEndOf="parent"
+                android:fontFamily="@font/nunitolight"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView4" />
 

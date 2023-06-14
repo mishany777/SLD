@@ -1,10 +1,11 @@
 package com.example.stoplyingdown;
 
+import android.content.Context;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
-import android.graphics.drawable.Drawable;
 import android.app.Dialog;
 import android.os.Bundle;
+import android.content.SharedPreferences;
 
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -15,13 +16,13 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.Window;
 import android.view.WindowManager;
-import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -38,6 +39,7 @@ public class ActivitiesFragment extends Fragment{
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
+    SharedPreferences sPref;
 
     List<item> mlist;
     Dialog dialog;
@@ -91,15 +93,54 @@ public class ActivitiesFragment extends Fragment{
         Window w = getActivity().getWindow();
         w.setFlags(WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS, WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS);
 
-        RecyclerView recyclerView = inflatedView.findViewById(R.id.rv_list);
+
+
         mlist = new ArrayList<>();
-        mlist.add(new item(R.drawable.walk,"Прогулка", "Нужно прогуляться на пол часика чисто подышать воздухом", false));
-        mlist.add(new item(R.drawable.water_glass,"Отжимания", "I gonna put your ass out", false));
-        mlist.add(new item(R.drawable.moon,"Глазная разминочка", "I gonna put your ass out", false));
+
+//        mlist.add(new item(R.drawable.walk,"Прогулка", "Нужно прогуляться на пол часика чисто подышать воздухом", false));
+//        mlist.add(new item(R.drawable.water_glass,"Отжимания", "I gonna put your ass out", false));
+//        mlist.add(new item(R.drawable.moon,"Глазная разминочка", "I gonna put your ass out", false));
+
+        sPref = getContext().getSharedPreferences("activities", Context.MODE_PRIVATE);
+//        sPref.edit().clear().apply();
+//        AddActivityMain(R.drawable.walk,"Прогулка", "Нужно прогуляться на пол часика чисто подышать воздухом", true);
+//        AddActivityMain(R.drawable.baseline_aim,"Стрельба", "Нужно прогуляться на пол часика чисто подышать воздухом", true);
+        UploadActivities();
+
+        RecyclerView recyclerView = inflatedView.findViewById(R.id.rv_list);
         Adapter adapter = new Adapter(getContext(), mlist);
         recyclerView.setAdapter(adapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
+
         return inflatedView;
+    }
+
+    private void UploadActivities(){
+        SharedPreferences.Editor editor = sPref.edit();
+        Map<String, ?> a = sPref.getAll();
+        Integer size = a.size();
+        for (int i = 1; i < size+1; i++){
+            String item = sPref.getString(Integer.toString(i), "0");
+            String[] itemArray = item.split("%");
+            mlist.add(new item(Integer.parseInt(itemArray[0]), itemArray[1], itemArray[2], Boolean.parseBoolean(itemArray[3])));
+        }
+    }
+
+    private String ToStringConverter(int background, String activityTitle, String description, Boolean isFinished){
+        String result = Integer.toString(background)+"%"+activityTitle+"%"+description+"%"+Boolean.toString(isFinished);
+        return result;
+    }
+
+//    private Array FromStringConverter(String){
+//    }
+
+    private void AddActivityMain(int background, String activityTitle, String description, Boolean isFinished){
+        String ActivityString = ToStringConverter(background, activityTitle, description, isFinished);
+        SharedPreferences.Editor editor = sPref.edit();
+        Integer index = sPref.getAll().size();
+        editor.putString(Integer.toString(index+1), ActivityString);
+        editor.apply();
+        UploadActivities();
     }
 
     private void AddActivityDialog(){
@@ -112,7 +153,7 @@ public class ActivitiesFragment extends Fragment{
             public void onClick(View view) {
                 EditText header = dialog.findViewById(R.id.activity_header);
                 EditText description = dialog.findViewById(R.id.activity_description);
-                mlist.add(new item(R.drawable.moon, header.getText().toString(), description.getText().toString(), false));
+                AddActivityMain(R.drawable.white_background, header.getText().toString(), description.getText().toString(), false);
                 dialog.cancel();
             }
         });

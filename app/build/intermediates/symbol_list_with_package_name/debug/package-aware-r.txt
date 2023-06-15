@@ -2757,6 +2757,7 @@ drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable edittext_background
+drawable empty_background
 drawable empty_button_card
 drawable ethereum
 drawable float_icon
@@ -3046,6 +3047,7 @@ id decelerate
 id decelerateAndComplete
 id decor_content_parent
 id default_activity_button
+id deleteButton
 id deltaRelative
 id dependency_ordering
 id description

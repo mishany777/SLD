@@ -690,5 +690,9 @@
     {
         "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-hdpi_bottom_btn3.png.flat",
         "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-hdpi/bottom_btn3.png"
+    },
+    {
+        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable_empty_background.xml.flat",
+        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable/empty_background.xml"
     }
 ]

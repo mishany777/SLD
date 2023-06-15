@@ -11,6 +11,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
+import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
@@ -25,19 +26,10 @@ public class Adapter extends RecyclerView.Adapter<Adapter.myViewHolder> {
     public Adapter(Context mContext, List<item> mData) {
         this.mContext = mContext;
         this.mData = mData;
-        System.out.println("1----"+mData.get(0));
-//        this.mData.sort(new Comparator<item>() {
-//            @Override
-//            public int compare(item item, item t1) {
-//                if (item.isFinished)
-//                    return 1;
-//                else if (t1.isFinished) {
-//                    return -1;
-//                }
-//                else
-//                    return 0;
-//            }
-//        });
+    }
+
+    public List<item> getmData() {
+        return this.mData;
     }
 
     @NonNull
@@ -57,7 +49,6 @@ public class Adapter extends RecyclerView.Adapter<Adapter.myViewHolder> {
         holder.item = mData.get(position);
         holder.data = mData;
         holder.pos = holder.getAdapterPosition();
-        System.out.println(position + " " + holder.getAdapterPosition());
 
         if (holder.item.isFinished){
             holder.btn_finish.setText("✔︎");
@@ -69,6 +60,7 @@ public class Adapter extends RecyclerView.Adapter<Adapter.myViewHolder> {
             holder.btn_finish.setWidth(289);
             holder.btn_finish.setBackgroundResource(R.drawable.empty_button_card);
         }
+        holder.delete.setVisibility(View.INVISIBLE);
     }
 
     @Override
@@ -81,6 +73,7 @@ public class Adapter extends RecyclerView.Adapter<Adapter.myViewHolder> {
         ImageView background_photo;
         TextView title, description;
         Button btn_finish;
+        Button delete;
         List<item> data;
         item item;
 
@@ -93,6 +86,8 @@ public class Adapter extends RecyclerView.Adapter<Adapter.myViewHolder> {
             this.title = itemView.findViewById(R.id.activity_name);
             this.description = itemView.findViewById(R.id.description);
             this.btn_finish = itemView.findViewById(R.id.btn_finish);
+            this.delete = itemView.findViewById(R.id.deleteButton);
+
 
             btn_finish.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -113,6 +108,23 @@ public class Adapter extends RecyclerView.Adapter<Adapter.myViewHolder> {
                     ChangeBoolean(pos);
                 }
             });
+
+            delete.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    if (!item.isStock){
+                        Integer position = getAdapterPosition();
+                        sPref = mContext.getSharedPreferences("activities", Context.MODE_PRIVATE);
+                        SharedPreferences.Editor editor = sPref.edit();
+                        Integer all = getItemCount();
+                        for (Integer i = position+1; i < all; i++){
+                            sPref.edit().remove(Integer.toString(position+1));
+                            sPref.edit().putString(Integer.toString(position+1), sPref.getString(Integer.toString(position+2), "0")).apply();
+                        }
+                        sPref.edit().remove(Integer.toString(all)).apply();
+                    }
+                }
+            });
         }
 
         private void ChangeBoolean(Integer position){
@@ -122,7 +134,7 @@ public class Adapter extends RecyclerView.Adapter<Adapter.myViewHolder> {
             String itemString = sPref.getString(resPos, "0");
             String[] itemSplited = itemString.split("%");
             itemSplited[3] = itemSplited[3].equals("false") ? "true" : "false";
-            String result = itemSplited[0]+"%"+itemSplited[1]+"%"+itemSplited[2]+"%"+itemSplited[3];
+            String result = itemSplited[0]+"%"+itemSplited[1]+"%"+itemSplited[2]+"%"+itemSplited[3]+"%"+itemSplited[4];
             editor.putString(resPos, result);
             editor.apply();
         }

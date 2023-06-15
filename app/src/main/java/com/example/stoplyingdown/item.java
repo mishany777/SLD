@@ -7,12 +7,22 @@ public class item {
     String activityTitle;
     String description;
     Boolean isFinished;
+    Boolean isStock;
 
-    public item(int background, String activityTitle, String description, Boolean isFinished) {
+    public item(int background, String activityTitle, String description, Boolean isFinished, Boolean isStock) {
         this.background = background;
         this.activityTitle = activityTitle;
         this.description = description;
         this.isFinished = isFinished;
+        this.isStock = isStock;
+    }
+
+    public void setStock(Boolean stock) {
+        isStock = stock;
+    }
+
+    public Boolean getStock() {
+        return isStock;
     }
 
     public int getBackground() {

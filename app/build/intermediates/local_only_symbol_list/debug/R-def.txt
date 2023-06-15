@@ -49,6 +49,7 @@ drawable circle_top_splash
 drawable credit
 drawable dark_mode
 drawable edittext_background
+drawable empty_background
 drawable empty_button_card
 drawable ethereum
 drawable float_icon
@@ -109,6 +110,7 @@ id card
 id cardActivityView
 id cupsCounter
 id darkmode
+id deleteButton
 id description
 id editTextTime2
 id edit_button

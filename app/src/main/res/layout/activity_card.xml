@@ -76,6 +76,19 @@
                 app:layout_constraintStart_toStartOf="@+id/activity_name"
                 app:layout_constraintTop_toBottomOf="@+id/activity_name" />
 
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/deleteButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:text="no"
+                android:textColor="@color/white"
+                android:layout_marginTop="05dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:background="@drawable/empty_background"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@android:drawable/ic_delete" />
+
         </androidx.constraintlayout.widget.ConstraintLayout>
 
 

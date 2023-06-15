@@ -2756,6 +2756,7 @@ int drawable design_ic_visibility_off 0x7f070099
 int drawable design_password_eye 0x7f07009a
 int drawable design_snackbar_background 0x7f07009b
 int drawable edittext_background 0x7f07009c
+int drawable empty_background 0x7f070116
 int drawable empty_button_card 0x7f07009d
 int drawable ethereum 0x7f07009e
 int drawable float_icon 0x7f07009f
@@ -3045,6 +3046,7 @@ int id decelerate 0x7f0900a3
 int id decelerateAndComplete 0x7f0900a4
 int id decor_content_parent 0x7f0900a5
 int id default_activity_button 0x7f0900a6
+int id deleteButton 0x7f0900a7
 int id deltaRelative 0x7f0900a8
 int id dependency_ordering 0x7f0900a9
 int id description 0x7f0900aa

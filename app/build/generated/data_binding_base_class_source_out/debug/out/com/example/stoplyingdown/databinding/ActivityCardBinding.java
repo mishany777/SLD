@@ -9,6 +9,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.widget.AppCompatButton;
+import androidx.cardview.widget.CardView;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
@@ -31,20 +32,29 @@ public final class ActivityCardBinding implements ViewBinding {
   public final AppCompatButton btnFinish;
 
   @NonNull
+  public final CardView cardActivityView;
+
+  @NonNull
   public final ImageView darkmode;
+
+  @NonNull
+  public final AppCompatButton deleteButton;
 
   @NonNull
   public final TextView description;
 
   private ActivityCardBinding(@NonNull ConstraintLayout rootView,
       @NonNull ImageView activityCardBackground, @NonNull TextView activityName,
-      @NonNull AppCompatButton btnFinish, @NonNull ImageView darkmode,
+      @NonNull AppCompatButton btnFinish, @NonNull CardView cardActivityView,
+      @NonNull ImageView darkmode, @NonNull AppCompatButton deleteButton,
       @NonNull TextView description) {
     this.rootView = rootView;
     this.activityCardBackground = activityCardBackground;
     this.activityName = activityName;
     this.btnFinish = btnFinish;
+    this.cardActivityView = cardActivityView;
     this.darkmode = darkmode;
+    this.deleteButton = deleteButton;
     this.description = description;
   }
 
@@ -93,9 +103,21 @@ public final class ActivityCardBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.cardActivityView;
+      CardView cardActivityView = ViewBindings.findChildViewById(rootView, id);
+      if (cardActivityView == null) {
+        break missingId;
+      }
+
       id = R.id.darkmode;
       ImageView darkmode = ViewBindings.findChildViewById(rootView, id);
       if (darkmode == null) {
+        break missingId;
+      }
+
+      id = R.id.deleteButton;
+      AppCompatButton deleteButton = ViewBindings.findChildViewById(rootView, id);
+      if (deleteButton == null) {
         break missingId;
       }
 
@@ -106,7 +128,7 @@ public final class ActivityCardBinding implements ViewBinding {
       }
 
       return new ActivityCardBinding((ConstraintLayout) rootView, activityCardBackground,
-          activityName, btnFinish, darkmode, description);
+          activityName, btnFinish, cardActivityView, darkmode, deleteButton, description);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -20,6 +20,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
 
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
@@ -92,19 +94,52 @@ public class ActivitiesFragment extends Fragment{
 
         Window w = getActivity().getWindow();
         w.setFlags(WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS, WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS);
-
-
-
         mlist = new ArrayList<>();
 
-//        mlist.add(new item(R.drawable.walk,"Прогулка", "Нужно прогуляться на пол часика чисто подышать воздухом", false));
-//        mlist.add(new item(R.drawable.water_glass,"Отжимания", "I gonna put your ass out", false));
-//        mlist.add(new item(R.drawable.moon,"Глазная разминочка", "I gonna put your ass out", false));
+        LocalDate date = LocalDate.now();
+        DateTimeFormatter dateFormatter = DateTimeFormatter.ofPattern("dd-MM-yyyy");
+        String datenow = date.format(dateFormatter);
+        sPref = getContext().getSharedPreferences("userinfo", Context.MODE_PRIVATE);
+        String oldDate = sPref.getString("date", "99-99-9999");
+        if (IsFirstMoreSecond(datenow, oldDate)){
+            sPref = getContext().getSharedPreferences("userinfo", Context.MODE_PRIVATE);
+            Integer activity = sPref.getInt("activity", 1);
+            Integer mass = sPref.getInt("mass", 1);
+
+            if (activity == 1){
+                //super active
+                AddActivityMain(R.drawable.walk,"Прогулка", "Нужно прогуляться 1 час", true, true);
+
+            } else if (activity == 2) {
+                //medium active
+                AddActivityMain(R.drawable.walk,"Прогулка", "Нужно прогуляться 30 минут", true, true);
+            }
+            else{
+
+                AddActivityMain(R.drawable.walk,"Прогулка", "Нужно прогуляться 15 минут", true, true);
+                //low active
+            }
+
+            if (mass == 1){
+                //lose mass
+
+            }
+            else if (mass == 2){
+                //keep mass
+
+            }
+            else{
+                //more mass
+
+            }
+        }
+
 
         sPref = getContext().getSharedPreferences("activities", Context.MODE_PRIVATE);
+        System.out.println(sPref.getAll());
 //        sPref.edit().clear().apply();
-//        AddActivityMain(R.drawable.walk,"Прогулка", "Нужно прогуляться на пол часика чисто подышать воздухом", true);
-//        AddActivityMain(R.drawable.baseline_aim,"Стрельба", "Нужно прогуляться на пол часика чисто подышать воздухом", true);
+//        AddActivityMain(R.drawable.walk,"Прогулка", "Нужно прогуляться на пол часика чисто подышать воздухом", true, true);
+//        AddActivityMain(R.drawable.baseline_aim,"Стрельба", "Нужно прогуляться на пол часика чисто подышать воздухом", true, true);
         UploadActivities();
 
         RecyclerView recyclerView = inflatedView.findViewById(R.id.rv_list);
@@ -123,17 +158,17 @@ public class ActivitiesFragment extends Fragment{
         for (int i = 1; i < size+1; i++){
             String item = sPref.getString(Integer.toString(i), "0");
             String[] itemArray = item.split("%");
-            mlist.add(new item(Integer.parseInt(itemArray[0]), itemArray[1], itemArray[2], Boolean.parseBoolean(itemArray[3])));
+            mlist.add(new item(Integer.parseInt(itemArray[0]), itemArray[1], itemArray[2], Boolean.parseBoolean(itemArray[3]), Boolean.parseBoolean(itemArray[4])));
         }
     }
 
-    private String ToStringConverter(int background, String activityTitle, String description, Boolean isFinished){
-        String result = Integer.toString(background)+"%"+activityTitle+"%"+description+"%"+Boolean.toString(isFinished);
+    private String ToStringConverter(int background, String activityTitle, String description, Boolean isFinished, Boolean isStock){
+        String result = Integer.toString(background)+"%"+activityTitle+"%"+description+"%"+Boolean.toString(isFinished)+"%"+Boolean.toString(isStock);
         return result;
     }
 
-    private void AddActivityMain(int background, String activityTitle, String description, Boolean isFinished){
-        String ActivityString = ToStringConverter(background, activityTitle, description, isFinished);
+    private void AddActivityMain(int background, String activityTitle, String description, Boolean isFinished, Boolean isStock){
+        String ActivityString = ToStringConverter(background, activityTitle, description, isFinished, isStock);
         SharedPreferences.Editor editor = sPref.edit();
         Integer index = sPref.getAll().size();
         editor.putString(Integer.toString(index+1), ActivityString);
@@ -152,7 +187,7 @@ public class ActivitiesFragment extends Fragment{
             public void onClick(View view) {
                 EditText header = dialog.findViewById(R.id.activity_header);
                 EditText description = dialog.findViewById(R.id.activity_description);
-                AddActivityMain(R.drawable.white_background, header.getText().toString(), description.getText().toString(), false);
+                AddActivityMain(R.drawable.white_background, header.getText().toString(), description.getText().toString(), false, false);
                 dialog.cancel();
             }
         });
@@ -164,5 +199,18 @@ public class ActivitiesFragment extends Fragment{
             }
         });
         dialog.show();
+    }
+
+    public boolean IsFirstMoreSecond(String date1, String date2){
+        String[] date1_split = date1.split("-");
+        String[] date2_split = date2.split("-");
+
+        if (Integer.parseInt(date2_split[2]) > Integer.parseInt(date1_split[2]))
+            return false;
+
+        if (Integer.parseInt(date2_split[1]) > Integer.parseInt(date1_split[1]))
+            return false;
+
+        return Integer.parseInt(date2_split[0]) < Integer.parseInt(date1_split[0]);
     }
 }

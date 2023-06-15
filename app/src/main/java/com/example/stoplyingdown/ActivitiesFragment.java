@@ -105,31 +105,46 @@ public class ActivitiesFragment extends Fragment{
             sPref = getContext().getSharedPreferences("userinfo", Context.MODE_PRIVATE);
             Integer activity = sPref.getInt("activity", 1);
             Integer mass = sPref.getInt("mass", 1);
+            sPref = getContext().getSharedPreferences("activities", Context.MODE_PRIVATE);
+            sPref.edit().clear().apply();
 
             if (activity == 1){
                 //super active
-                AddActivityMain(R.drawable.walk,"Прогулка", "Нужно прогуляться 1 час", true, true);
+                AddActivityMain(R.drawable.zaryadka,"Зарядка", "Выполнить утреннюю зарядку", false, true);
+                AddActivityMain(R.drawable.walk,"Прогулка", "Нужно прогуляться 1 час", false, true);
+                AddActivityMain(R.drawable.pushups,"Отжимания", "В сумме за день сделать 100 отжиманий", false, true);
+                AddActivityMain(R.drawable.meditation,"Медитация", "Провести 20 минут, медетируя", false, true);
+                AddActivityMain(R.drawable.planka,"Планка", "Продержаться в планке 5 миинут", false, true);
 
             } else if (activity == 2) {
                 //medium active
-                AddActivityMain(R.drawable.walk,"Прогулка", "Нужно прогуляться 30 минут", true, true);
+                AddActivityMain(R.drawable.zaryadka,"Зарядка", "Выполнить утреннюю зарядку", false, true);
+                AddActivityMain(R.drawable.walk,"Прогулка", "Нужно прогуляться 30 минут", false, true);
+                AddActivityMain(R.drawable.pushups,"Отжимания", "В сумме за день сделать 70 отжиманий", false, true);
+                AddActivityMain(R.drawable.meditation,"Медитация", "Провести 15 минут, медетируя", false, true);
+                AddActivityMain(R.drawable.planka,"Планка", "Продержаться в планке 3 миинуты", false, true);
             }
             else{
-
-                AddActivityMain(R.drawable.walk,"Прогулка", "Нужно прогуляться 15 минут", true, true);
+                AddActivityMain(R.drawable.zaryadka,"Зарядка", "Выполнить утреннюю зарядку", false, true);
+                AddActivityMain(R.drawable.walk,"Прогулка", "Нужно прогуляться 15 минут", false, true);
+                AddActivityMain(R.drawable.pushups,"Отжимания", "В сумме за день сделать 40 отжиманий", false, true);
+                AddActivityMain(R.drawable.meditation,"Медитация", "Провести 10 минут, медетируя", false, true);
+                AddActivityMain(R.drawable.planka,"Планка", "Продержаться в планке 2 миинуты", false, true);
                 //low active
             }
 
             if (mass == 1){
                 //lose mass
-
+                AddActivityMain(R.drawable.jumps,"Приседания с выпрыгиваниями", "Выполнить 4х20 приседаний с выпригываниями", false, true);
+                AddActivityMain(R.drawable.skakalka,"Прыжки со скакалкой", "Время выполнения упражнения - 20 минут в день", false, true);
             }
             else if (mass == 2){
                 //keep mass
-
             }
             else{
                 //more mass
+                AddActivityMain(R.drawable.bolgar,"Болгарские выпады", "Выполнить 4 подхода по 10-15 раз", false, true);
+                AddActivityMain(R.drawable.prised,"Приседания", "Выполнить 4 подхода по 20 раз", false, true);
 
             }
         }
@@ -140,6 +155,9 @@ public class ActivitiesFragment extends Fragment{
 //        sPref.edit().clear().apply();
 //        AddActivityMain(R.drawable.walk,"Прогулка", "Нужно прогуляться на пол часика чисто подышать воздухом", true, true);
 //        AddActivityMain(R.drawable.baseline_aim,"Стрельба", "Нужно прогуляться на пол часика чисто подышать воздухом", true, true);
+//        AddActivityMain(R.drawable.walk,"Прогулка", "Нужно прогуляться 1 час", true, true);
+//        AddActivityMain(R.drawable.pushups,"Отжимания", "В сумме за день сделать 100 отжиманий", true, true);
+//        AddActivityMain(R.drawable.meditation,"Медитация", "Провести 10 минут, медетируя", true, true);
         UploadActivities();
 
         RecyclerView recyclerView = inflatedView.findViewById(R.id.rv_list);

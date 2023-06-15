@@ -2730,6 +2730,7 @@ drawable baseline_manage_accounts_24
 drawable baseline_profile
 drawable bitcoin
 drawable black_gradient
+drawable bolgar
 drawable bottom_btn1
 drawable bottom_btn2
 drawable bottom_btn3
@@ -2781,6 +2782,7 @@ drawable ic_search_black_24
 drawable icon_calories
 drawable icon_weight_4760791
 drawable intro_button
+drawable jumps
 drawable m3_appbar_background
 drawable m3_avd_hide_password
 drawable m3_avd_show_password
@@ -2805,6 +2807,7 @@ drawable material_ic_keyboard_arrow_previous_black_24dp
 drawable material_ic_keyboard_arrow_right_black_24dp
 drawable material_ic_menu_arrow_down_black_24dp
 drawable material_ic_menu_arrow_up_black_24dp
+drawable meditation
 drawable minus
 drawable moon
 drawable mtrl_bottomsheet_drag_handle
@@ -2858,13 +2861,17 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable pencil
+drawable planka
 drawable plus
+drawable prised
 drawable profal
 drawable profile
 drawable profile111
 drawable progress_bar_style
+drawable pushups
 drawable receive
 drawable send
+drawable skakalka
 drawable sun
 drawable test_level_drawable
 drawable thumb
@@ -2879,6 +2886,7 @@ drawable walk
 drawable water_glass
 drawable white_background
 drawable women
+drawable zaryadka
 font nunitolight
 id ALT
 id BOTTOM_END

@@ -106,6 +106,7 @@ id buttonImageView
 id cancel
 id cancel_button_activity
 id card
+id cardActivityView
 id cupsCounter
 id darkmode
 id description

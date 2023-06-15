@@ -116,6 +116,7 @@ public class ActivitiesFragment extends Fragment{
     }
 
     private void UploadActivities(){
+        mlist.clear();
         SharedPreferences.Editor editor = sPref.edit();
         Map<String, ?> a = sPref.getAll();
         Integer size = a.size();
@@ -131,17 +132,14 @@ public class ActivitiesFragment extends Fragment{
         return result;
     }
 
-//    private Array FromStringConverter(String){
-//    }
-
     private void AddActivityMain(int background, String activityTitle, String description, Boolean isFinished){
         String ActivityString = ToStringConverter(background, activityTitle, description, isFinished);
         SharedPreferences.Editor editor = sPref.edit();
         Integer index = sPref.getAll().size();
         editor.putString(Integer.toString(index+1), ActivityString);
         editor.apply();
-        mlist.add(new item(background, activityTitle, description, isFinished));
-//        UploadActivities();
+        UploadActivities();
+//        mlist.add(new item(background, activityTitle, description, isFinished));
     }
 
     private void AddActivityDialog(){

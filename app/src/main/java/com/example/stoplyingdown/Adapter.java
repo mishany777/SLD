@@ -6,6 +6,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -119,11 +120,9 @@ public class Adapter extends RecyclerView.Adapter<Adapter.myViewHolder> {
             sPref = mContext.getSharedPreferences("activities", Context.MODE_PRIVATE);
             SharedPreferences.Editor editor = sPref.edit();
             String itemString = sPref.getString(resPos, "0");
-            System.out.println(itemString);
             String[] itemSplited = itemString.split("%");
             itemSplited[3] = itemSplited[3].equals("false") ? "true" : "false";
             String result = itemSplited[0]+"%"+itemSplited[1]+"%"+itemSplited[2]+"%"+itemSplited[3];
-            System.out.println(result);
             editor.putString(resPos, result);
             editor.apply();
         }

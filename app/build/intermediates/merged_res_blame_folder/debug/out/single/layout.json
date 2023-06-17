@@ -1,7 +1,7 @@
 [
     {
-        "merged": "com.example.stoplyingdown.app-mergeDebugResources-30:/layout/activity_card.xml",
-        "source": "com.example.stoplyingdown.app-main-33:/layout/activity_card.xml"
+        "merged": "com.example.stoplyingdown.app-mergeDebugResources-30:/layout/fragment_food.xml",
+        "source": "com.example.stoplyingdown.app-main-33:/layout/fragment_food.xml"
     },
     {
         "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-mergeDebugResources-30:/layout/add_activity_dialog.xml",

@@ -3065,6 +3065,7 @@ id design_menu_item_action_area_stub
 id design_menu_item_text
 id design_navigation_view
 id dialog_button
+id dietText
 id dimensions
 id direct
 id disableHome
@@ -3403,7 +3404,6 @@ id textTop
 id textView
 id textView10
 id textView11
-id textView12
 id textView13
 id textView14
 id textView15

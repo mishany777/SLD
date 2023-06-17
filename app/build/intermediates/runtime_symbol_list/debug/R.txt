@@ -3064,6 +3064,7 @@ int id design_menu_item_action_area_stub 0x7f0900ad
 int id design_menu_item_text 0x7f0900ae
 int id design_navigation_view 0x7f0900af
 int id dialog_button 0x7f0900b0
+int id dietText 0x7f090260
 int id dimensions 0x7f0900b1
 int id direct 0x7f0900b2
 int id disableHome 0x7f0900b3
@@ -3402,7 +3403,6 @@ int id textTop 0x7f0901ff
 int id textView 0x7f090200
 int id textView10 0x7f090201
 int id textView11 0x7f090202
-int id textView12 0x7f090203
 int id textView13 0x7f090204
 int id textView14 0x7f090205
 int id textView15 0x7f090206

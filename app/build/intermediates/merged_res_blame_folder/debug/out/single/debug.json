@@ -1,11 +1,11 @@
 [
     {
-        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/mipmap-hdpi/ic_launcher_round.webp"
-    },
-    {
         "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-ldpi_profile.png.flat",
         "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-ldpi/profile.png"
+    },
+    {
+        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
         "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/layout_fragment_diet2.xml.flat",
@@ -58,6 +58,10 @@
     {
         "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-mdpi_buy.png.flat",
         "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-mdpi/buy.png"
+    },
+    {
+        "merged": "com.example.stoplyingdown.app-merged_res-31:/layout_fragment_food.xml.flat",
+        "source": "com.example.stoplyingdown.app-main-33:/layout/fragment_food.xml"
     },
     {
         "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable_baseline_aim.xml.flat",
@@ -252,6 +256,10 @@
         "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-mdpi/credit.png"
     },
     {
+        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable_prised.jpg.flat",
+        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable/prised.jpg"
+    },
+    {
         "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-xxxhdpi_send.png.flat",
         "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-xxxhdpi/send.png"
     },
@@ -404,6 +412,10 @@
         "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable/pushups.jpg"
     },
     {
+        "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable_bolgar.jpg.flat",
+        "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable/bolgar.jpg"
+    },
+    {
         "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-ldpi_bottom_btn3.png.flat",
         "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-ldpi/bottom_btn3.png"
     },
@@ -496,10 +508,6 @@
         "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-ldpi/bottom_btn2.png"
     },
     {
-        "merged": "com.example.stoplyingdown.app-merged_res-31:/drawable_bolgar.jpg.flat",
-        "source": "com.example.stoplyingdown.app-main-33:/drawable/bolgar.jpg"
-    },
-    {
         "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-xxhdpi_intro_button.png.flat",
         "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-xxhdpi/intro_button.png"
     },
@@ -554,10 +562,6 @@
     {
         "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-xhdpi_trox.png.flat",
         "source": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-main-33:/drawable-xhdpi/trox.png"
-    },
-    {
-        "merged": "com.example.stoplyingdown.app-merged_res-31:/drawable_prised.jpg.flat",
-        "source": "com.example.stoplyingdown.app-main-33:/drawable/prised.jpg"
     },
     {
         "merged": "/Users/daniil/.gradle/daemon/7.5/com.example.stoplyingdown.app-merged_res-31:/drawable-ldpi_add.png.flat",

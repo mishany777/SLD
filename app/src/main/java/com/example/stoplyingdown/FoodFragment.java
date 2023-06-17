@@ -1,7 +1,11 @@
 package com.example.stoplyingdown;
 
+import android.content.Context;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
@@ -10,6 +14,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+
+import java.util.Collection;
+import java.util.Iterator;
+import java.util.List;
+import java.util.ListIterator;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -65,6 +74,27 @@ public class FoodFragment extends Fragment {
         Button diet1 = inflatedView.findViewById(R.id.button1);
         Button diet2 = inflatedView.findViewById(R.id.button2);
         Button diet3 = inflatedView.findViewById(R.id.button3);
+
+        SharedPreferences sPref = getContext().getSharedPreferences("userinfo", Context.MODE_PRIVATE);
+
+        Button[] buttons = new Button[3];
+        buttons[0] = diet1;
+        buttons[1] = diet2;
+        buttons[2] = diet3;
+        for (int i = 0; i < buttons.length; i++){
+            buttons[i].setBackgroundResource(R.drawable.button_empty);
+        }
+        Integer massValue = sPref.getInt("mass", 1);
+        if (massValue == 1){
+            for (int i = 0; i < 2; i++){
+                buttons[i].setBackgroundResource(R.drawable.top_button_backgroung);
+            }
+        }
+        else if (massValue == 3){
+            buttons[2].setBackgroundResource(R.drawable.top_button_backgroung);
+        }
+
+
 
         diet1.setOnClickListener(new View.OnClickListener() {
             @Override

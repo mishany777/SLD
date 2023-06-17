@@ -120,6 +120,7 @@ id cupsCounter
 id darkmode
 id deleteButton
 id description
+id dietText
 id editTextTime2
 id edit_button
 id edit_button_height
@@ -162,7 +163,6 @@ id step_info
 id textView
 id textView10
 id textView11
-id textView12
 id textView13
 id textView14
 id textView15
@@ -199,6 +199,7 @@ id textView7
 id textView70
 id textView8
 id textView9
+id title
 id usernameField
 id wakeup
 id water_button

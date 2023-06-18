@@ -56,7 +56,7 @@ public class Adapter extends RecyclerView.Adapter<Adapter.myViewHolder> {
             holder.btn_finish.setBackgroundResource(R.drawable.good_button);
         }
         else{
-            holder.btn_finish.setText("Выполнить");
+            holder.btn_finish.setText("Выполнено");
             holder.btn_finish.setWidth(289);
             holder.btn_finish.setBackgroundResource(R.drawable.empty_button_card);
         }
@@ -99,7 +99,7 @@ public class Adapter extends RecyclerView.Adapter<Adapter.myViewHolder> {
                         btn_finish.setBackgroundResource(R.drawable.good_button);
                     }
                     else{
-                        btn_finish.setText("Выполнить");
+                        btn_finish.setText("Выполнено");
                         btn_finish.setWidth(289);
                         System.out.println(btn_finish.getHeight() + " " + btn_finish.getWidth());
                         btn_finish.setBackgroundResource(R.drawable.empty_button_card);

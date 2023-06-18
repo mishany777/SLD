@@ -101,7 +101,10 @@ public class ActivitiesFragment extends Fragment{
         String datenow = date.format(dateFormatter);
         sPref = getContext().getSharedPreferences("userinfo", Context.MODE_PRIVATE);
         String oldDate = sPref.getString("date", "99-99-9999");
+        System.out.println(sPref.getAll());
         if (IsFirstMoreSecond(datenow, oldDate)){
+            SetTime(datenow, sPref);
+            System.out.println(sPref.getAll());
             sPref = getContext().getSharedPreferences("userinfo", Context.MODE_PRIVATE);
             Integer activity = sPref.getInt("activity", 1);
             Integer mass = sPref.getInt("mass", 1);
@@ -230,5 +233,15 @@ public class ActivitiesFragment extends Fragment{
             return false;
 
         return Integer.parseInt(date2_split[0]) < Integer.parseInt(date1_split[0]);
+    }
+
+    public void SetTime(String date, SharedPreferences sPref){
+        SharedPreferences.Editor editor = sPref.edit();
+        if (sPref.contains("date")){
+            editor.remove("date");
+            editor.apply();
+        }
+        editor.putString("date", date);
+        editor.apply();
     }
 }

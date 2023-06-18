@@ -78,9 +78,6 @@ public class WaterFragment extends Fragment {
         sPref = getContext().getSharedPreferences(APP_PREFERENCES_NAME, Context.MODE_PRIVATE);
 
 
-
-
-
         ProgressBar progressBar = inflatedView.findViewById(R.id.progress);
         ImageButton plusButton = inflatedView.findViewById(R.id.plusButton);
         ImageButton minusButton = inflatedView.findViewById(R.id.minusButton);

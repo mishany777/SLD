@@ -23,13 +23,17 @@ public final class FragmentDiet1Binding implements ViewBinding {
   public final TextView backButton;
 
   @NonNull
-  public final TextView textView12;
+  public final TextView dietText;
+
+  @NonNull
+  public final TextView title;
 
   private FragmentDiet1Binding(@NonNull ConstraintLayout rootView, @NonNull TextView backButton,
-      @NonNull TextView textView12) {
+      @NonNull TextView dietText, @NonNull TextView title) {
     this.rootView = rootView;
     this.backButton = backButton;
-    this.textView12 = textView12;
+    this.dietText = dietText;
+    this.title = title;
   }
 
   @Override
@@ -65,13 +69,19 @@ public final class FragmentDiet1Binding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.textView12;
-      TextView textView12 = ViewBindings.findChildViewById(rootView, id);
-      if (textView12 == null) {
+      id = R.id.dietText;
+      TextView dietText = ViewBindings.findChildViewById(rootView, id);
+      if (dietText == null) {
         break missingId;
       }
 
-      return new FragmentDiet1Binding((ConstraintLayout) rootView, backButton, textView12);
+      id = R.id.title;
+      TextView title = ViewBindings.findChildViewById(rootView, id);
+      if (title == null) {
+        break missingId;
+      }
+
+      return new FragmentDiet1Binding((ConstraintLayout) rootView, backButton, dietText, title);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
